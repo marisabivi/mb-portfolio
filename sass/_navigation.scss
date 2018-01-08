@@ -97,6 +97,7 @@
 }
 
 .navigation-overlay {
+  background-color: $bg-dark;
   @include transition ($all);
 
   &.sticky .logo-wrap > a {
@@ -184,10 +185,6 @@
   & > .active > a {
     color: $main-color;
   }
-
-  & > li:last-child > a {
-    padding-right: 0;
-  }
 }
 
 //.navbar-collapse {
@@ -209,7 +206,7 @@ header.transparent {
 
   .navbar-nav > .active > a,
   .navbar-nav > li > a:hover {
-    color: #fff;
+    color: $main-color;
   }
 
   #nav-icon span {
@@ -604,7 +601,7 @@ input.main-search-input:-ms-input-placeholder {
   }
 
   a {
-    color: $text-color;
+    color: $yellow;
 
     &:hover {
       color: $main-color;
@@ -719,6 +716,7 @@ input.main-search-input:-ms-input-placeholder {
 
 .nav-type-5 {
   padding: 20px 0;
+  background-color: $bg-dark;
 
   .navbar-fixed-top.sticky {
     min-height: 60px;
@@ -769,8 +767,14 @@ input.main-search-input:-ms-input-placeholder {
 .overlay-menu {
   position: relative;
   top: 50%;
+  padding-right: 20%;
   @include transform (translateY(-50%));
-  text-align: center;
+  text-align: right;
+
+  .icon-Right-2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
 
   ul {
     list-style: none;
@@ -794,22 +798,25 @@ input.main-search-input:-ms-input-placeholder {
 
   ul li a {
     display: table-cell;
-    vertical-align: middle;
     position: relative;
     overflow: hidden;
     font-family: $heading-font;
     font-size: 40px;
     letter-spacing: -0.02em;
-    color: $heading-color;
+    color: $yellow;
     padding: 15px 0;
     font-weight: 600;
     text-decoration: none;
+    padding-right: 28px;
 
   }
 
-  ul li.active > a,
+  ul li.active > a {
+    color: $main-color;
+  }
   ul li a:hover {
     color: $main-color;
+    padding-right: 32px;
   }
 }
 

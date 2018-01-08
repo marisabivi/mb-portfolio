@@ -266,7 +266,7 @@ section.angle-bottom {
   }
 
   &:hover span {
-    color: $bg-dark;
+    color: $main-color;
   }
 }
 
@@ -701,7 +701,7 @@ section.angle-bottom {
   .contact-item span,
   .contact-item a,
   .contact-item a:hover {
-    color: #fff;
+    color: $main-color;
   }
 
   .contact-icon i {
@@ -730,7 +730,7 @@ section.angle-bottom {
   }
 
   a {
-    color: $text-color;
+    color: $yellow;
 
     &:hover {
       color: $main-color;
@@ -834,14 +834,14 @@ input[type="email"].transparent {
   .nav.nav-tabs > li > a,
   .nav.nav-tabs > li.active > a {
     border: 0;
-    color: $text-color;
+    color: $yellow;
     padding: 14px 20px 24px;
     background-color: transparent;
   }
 
   .nav.nav-tabs > li.active > a:hover,
   .nav.nav-tabs > li.active > a:focus {
-    color: $text-color;
+    color: $main-color;
   }
 
   .nav.nav-tabs > li.active:before {
@@ -1319,7 +1319,7 @@ input[type="email"].transparent {
 
   .breadcrumb > .active,
   .breadcrumb a:hover {
-    color: $heading-color;
+    color: $main-color;
   }
 }
 

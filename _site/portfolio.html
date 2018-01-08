@@ -9,6 +9,7 @@
   <meta name="description" content="">
 
   <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Dosis:400,500%7COpen+Sans:400,400i,700%7CNoto+Serif:400i' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,600,700%7COpen+Sans:400,400i,700%7CNoto+Serif:400i' rel='stylesheet'>
 
   <!-- Css -->
@@ -26,7 +27,7 @@
 
 </head>
 
-<body class="relative grid-1440 bg-dark">
+<body class="relative dosis grid-1440 bg-dark">
 
   <!-- Preloader -->
   <div class="loader-mask">
@@ -44,10 +45,10 @@
         <div class="fs-menu" id="nav-overlay">
           <div class="overlay-menu">
             <ul class="nav navbar-nav local-scroll">
-              <li><a href="index.html" class="underline-link">Home <i class="icon-Right-2"></a></li>
-              <li><a href="portfolio.html" class="underline-link">Portfolio <i class="icon-Right-2"></a></li>
-              <li><a href="about.html" class="underline-link">About <i class="icon-Right-2"></a></li>
-              <li><a href="contact.html" class="underline-link">Contact <i class="icon-Right-2"></a></li>
+              <li><a href="index.html">Home <i class="icon-Right-2"></i></a></li>
+              <li class="active"><a href="portfolio.html" class="active">Portfolio <i class="icon-Right-2"></i></a></li>
+              <li><a href="about.html">About <i class="icon-Right-2"></i></a></li>
+              <li><a href="contact.html">Contact <i class="icon-Right-2"></i></a></li>
             </ul>
 
           </div>
@@ -60,7 +61,7 @@
                 <div class="logo-container">
                   <div class="logo-wrap">
                     <a href="index.html">
-                      <img class="logo-dark" src="img/logo_dark.png" alt="logo">
+                      <img class="logo-dark" src="img/m_dark.svg" alt="logo">
                     </a>
                   </div>
                 </div>
@@ -108,9 +109,9 @@
               <div class="portfolio-filter text-center">
                 <div class="portfolio-filter-wrap">
                   <a href="#" class="filter active" data-filter="*">All</a>
-                  <a href="#" class="filter" data-filter=".web-design">Web Design</a>
                   <a href="#" class="filter" data-filter=".branding">Branding</a>
-                  <a href="#" class="filter" data-filter=".apps">Apps</a>
+                  <a href="#" class="filter" data-filter=".apps">Apps/Web Design</a>
+                  <a href="#" class="filter" data-filter=".other">Other</a>
                 </div>
               </div>
             </div>
@@ -120,14 +121,14 @@
           <div class="row">
             <div id="portfolio-grid" class="works-grid grid-3-col gutter">
 
-              <div class="work-item hover-trigger hover-2 web-design apps">
+              <div class="work-item hover-trigger hover-2 branding">
                 <div class="work-container">
                   <div class="work-img">
                     <a href="portfolio-arctic-leaf.html">
                       <img src="img/portfolio/6-1.jpg" alt="">
                       <div class="hover-overlay" data-overlay="5">
                         <div class="work-description">
-                          <h3>Arctic Leaf</h3>
+                          <h3 class="mont">Arctic Leaf</h3>
                           <span>Logo Design, Branding // 2018</span>
                         </div>
                       </div>
@@ -136,14 +137,14 @@
                 </div>
               </div> <!-- end work-item -->
 
-              <div class="work-item hover-trigger hover-2 apps branding">
+              <div class="work-item hover-trigger hover-2 apps">
                 <div class="work-container">
                   <div class="work-img">
                     <a href="portfolio-acess-e11.html">
                       <img src="img/portfolio/6-1.jpg" alt="">
                       <div class="hover-overlay" data-overlay="5">
                         <div class="work-description">
-                          <h3>Access E11</h3>
+                          <h3 class="mont">Access E11</h3>
                           <span>App Design, UI, UX // 2017</span>
                         </div>
                       </div>
@@ -152,14 +153,14 @@
                 </div>
               </div> <!-- end work-item -->
 
-              <div class="work-item hover-trigger hover-2 web-design apps">
+              <div class="work-item hover-trigger hover-2 other">
                 <div class="work-container">
                   <div class="work-img">
                     <a href="portfolio-zombie-heart.html">
                       <img src="img/portfolio/2-1.jpg" alt="">
                       <div class="hover-overlay" data-overlay="5">
                         <div class="work-description">
-                          <h3>Zombie Has My Heart</h3>
+                          <h3 class="mont">Zombie Has My Heart</h3>
                           <span>Illustration // 2015</span>
                         </div>
                       </div>
@@ -168,14 +169,14 @@
                 </div>
               </div> <!-- end work-item -->
 
-              <div class="work-item hover-trigger hover-2 branding">
+              <div class="work-item hover-trigger hover-2 apps">
                 <div class="work-container">
                   <div class="work-img">
                     <a href="portfolio-smartbrokr.html">
                       <img src="img/portfolio/1-1.jpg" alt="">
                       <div class="hover-overlay" data-overlay="5">
                         <div class="work-description">
-                          <h3>SmartBrokr</h3>
+                          <h3 class="mont">SmartBrokr</h3>
                           <span>Web Design, UI, UX // 2017</span>
                         </div>
                       </div>
@@ -188,11 +189,27 @@
                 <div class="work-container">
                   <div class="work-img">
                     <a href="portfolio-totally-squared.html">
-                      <img src="img/portfolio/1-1.jpg" alt="">
+                      <img src="img/portfolio/7-1.png" alt="">
                       <div class="hover-overlay" data-overlay="5">
                         <div class="work-description">
-                          <h3>Totally Squared</h3>
+                          <h3 class="mont">Totally Squared</h3>
                           <span>Logo Design, Branding // 2018</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- end work-item -->
+
+              <div class="work-item hover-trigger hover-2 app">
+                <div class="work-container">
+                  <div class="work-img">
+                    <a href="portfolio-off.html">
+                      <img src="img/portfolio/5-1.jpg" alt="">
+                      <div class="hover-overlay" data-overlay="5">
+                        <div class="work-description">
+                          <h3 class="mont">Off</h3>
+                          <span>App Design, UI, UX // 2015</span>
                         </div>
                       </div>
                     </a>
@@ -203,27 +220,11 @@
               <div class="work-item hover-trigger hover-2 branding">
                 <div class="work-container">
                   <div class="work-img">
-                    <a href="portfolio-off.html">
-                      <img src="img/portfolio/5-1.jpg" alt="">
-                      <div class="hover-overlay" data-overlay="5">
-                        <div class="work-description">
-                          <h3>Off</h3>
-                          <span>App Design, UI, UX // 2015</span>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div> <!-- end work-item -->
-
-              <div class="work-item hover-trigger hover-2 web-design apps">
-                <div class="work-container">
-                  <div class="work-img">
                     <a href="portfolio-galapagos-conservacy.html">
                       <img src="img/portfolio/6-1.jpg" alt="">
                       <div class="hover-overlay" data-overlay="5">
                         <div class="work-description">
-                          <h3>Galapagos Conservacy</h3>
+                          <h3 class="mont">Galapagos Conservacy</h3>
                           <span>Logo Design, Branding // 2016</span>
                         </div>
                       </div>
@@ -239,7 +240,7 @@
                       <img src="img/portfolio/1-1.jpg" alt="">
                       <div class="hover-overlay" data-overlay="5">
                         <div class="work-description">
-                          <h3>Warlan Electric</h3>
+                          <h3 class="mont">Warlan Electric</h3>
                           <span>Logo Design, Branding // 2015</span>
                         </div>
                       </div>
@@ -248,14 +249,14 @@
                 </div>
               </div> <!-- end work-item -->
 
-              <div class="work-item hover-trigger hover-2 branding">
+              <div class="work-item hover-trigger hover-2 other">
                 <div class="work-container">
                   <div class="work-img">
                     <a href="portfolio-single.html">
                       <img src="img/portfolio/5-1.jpg" alt="">
                       <div class="hover-overlay" data-overlay="5">
                         <div class="work-description">
-                          <h3>Misc Photography</h3>
+                          <h3 class="mont">Misc Photography</h3>
                           <span>Photography // 2013-2017</span>
                         </div>
                       </div>
