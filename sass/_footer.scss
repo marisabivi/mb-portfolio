@@ -52,7 +52,7 @@ html {
   .footer-entry .entry-meta li a:hover,
   .bottom-footer-links li a:hover,
   .footer-widgets .entry-list ul > li a:hover {
-    color: $main-color;
+    color: $bg-dark;
   }
 }
 
@@ -271,9 +271,10 @@ html {
     width: auto;
     height: auto;
     margin-right: 14px;
-    color: $bg-dark;
+    color: $dark-grey;
 
     &:hover {
+      color: $bg-dark;
       background-color: transparent !important;
     }
   }
@@ -319,7 +320,7 @@ html {
 
 .footer.bg-white .social-icons:not(.base-white) a:hover,
 .footer.bg-light .social-icons:not(.base-white) a:hover {
-  color: $heading-color !important;
+  color: $bg-dark !important;
 }
 
 

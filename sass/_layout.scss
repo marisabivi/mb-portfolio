@@ -1216,11 +1216,11 @@ input[type="email"].transparent {
   .breadcrumb a,
   .breadcrumb > .active,
   .entry-meta li a:hover {
-    color: #fff;
+    color: $main-color;
   }
 
   .breadcrumb>li+li:before {
-    color: #fff;
+    color: $yellow;
     opacity: 0.5;
     padding: 0 1px 0 5px;
   }

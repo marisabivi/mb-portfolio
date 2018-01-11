@@ -96,6 +96,11 @@ hr {
   }
 }
 
+.project-description p a:hover {
+  color: $main-color;
+}
+
+
 .mobile section { background-attachment: scroll !important; }
 .bg-dark { background-color: $bg-dark; }
 .bg-darkblue { background-color: #152332; }

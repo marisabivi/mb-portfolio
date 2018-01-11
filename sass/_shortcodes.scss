@@ -1358,7 +1358,7 @@
 
   &:not(.colored) a:hover {
     background-color: $bg-dark;
-    color: $main-color !important;
+    color: $bg-dark !important;
   }
 
   &.large a {
