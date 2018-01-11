@@ -501,7 +501,7 @@ input.main-search-input:-ms-input-placeholder {
 .nav-icon-wrap {
   position: relative;
   margin-left: 15px;
-  padding-right: 15px;
+  padding-right: 30px;
 }
 
 #nav-icon {
@@ -529,7 +529,7 @@ input.main-search-input:-ms-input-placeholder {
   span {
     display: block;
     position: absolute;
-    height: 2px;
+    height: 3px;
     width: 100%;
     background-color: $heading-color;
     opacity: 1;
@@ -821,15 +821,15 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 #nav-icon.style-2 {
-  width: 18px;
+  width: 24px;
 
   span:nth-child(2),
   span:nth-child(3) {
-    top: 6px;
+    top: 7px;
   }
 
   span:nth-child(4) {
-    top: 12px;
+    top: 14px;
   }
 }
 
