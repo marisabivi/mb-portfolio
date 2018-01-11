@@ -1,7 +1,7 @@
-<?php 
+<?php
 	if($_POST) {
 
-		$to = "youremail@gmail.com"; // Your email here
+		$to = "hello@marisabivi.ca"; // Your email here
 		$subject = 'Message from my website'; // Subject message here
 
 	}
@@ -20,7 +20,7 @@
 		echo json_encode(array('info' => 'error', 'msg' => 'Please fill out all fields'));
 	}
 
-	//Sanitize input data, remove all illegal characters	
+	//Sanitize input data, remove all illegal characters
 	$name    = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
 	$mail    = filter_var($_POST['mail'], FILTER_SANITIZE_EMAIL);
 	$website = filter_var($_POST['website'], FILTER_SANITIZE_STRING);
