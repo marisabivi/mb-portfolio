@@ -1,3 +1,8 @@
+.index-logo {
+  width:50%;
+  height:auto;
+}
+
 /*-------------------------------------------------------*/
 /* Responsive Styles
 /*-------------------------------------------------------*/
@@ -130,6 +135,12 @@
     .works-grid.grid-3-col .work-item,
     #team-slider .gallery-cell {
       width: 50%;
+    }
+
+    .index-logo {
+      width: 80%;
+      height:auto;
+      padding-top: 15%;
     }
 }
 
@@ -309,6 +320,12 @@
   .flickity-slider-wrap.items-4 .work-item,
   .flickity-slider-wrap.items-3 .work-item {
     width: 100% !important;
+  }
+
+  .index-logo {
+    width: 80%;
+    height:auto;
+    padding-top: 30%;
   }
 }
 
