@@ -491,8 +491,8 @@
 
             </div>
 
-            <div class="col-sm-4">
-              <form id="contact-form" class="contact-form style-2" action="https://formspree.io/hello@marisabivi.ca" method="post">
+            <div class="col-sm-4" style="padding-bottom:1em;">
+            <!--  <form id="contact-form" class="contact-form style-2" action="https://formspree.io/hello@marisabivi.ca" method="post">
                 <div class="contact-name">
                   <input name="name" id="name" type="text" placeholder="Name*">
                 </div>
@@ -502,6 +502,16 @@
                 <textarea name="comment" id="comment" rows="5" placeholder="Message"></textarea>
                 <input type="submit" class="btn btn-lg btn-color btn-submit" value="Send Message" id="submit-message">
                 <div id="msg" class="message"></div>
+              </form> -->
+              <form action="https://formspree.io/hello@marisabivi.ca"  method="POST">
+                  <input name="name" id="name" type="text" placeholder="Name*">
+                  <input name="mail" id="_replyto" type="email" placeholder="E-mail*">
+                <textarea name="comment" id="comment" rows="8" placeholder="Message"></textarea>
+                <input type="submit" class="btn btn-lg btn-color btn-submit" value="Send">
+                <input type="hidden" name="_next" value="thanks.html" />
+                <input type="hidden" name="_format" value="plain" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_subject" value="Your Inquiry to Marisa Bivi">
               </form>
             </div> <!-- end col -->
 

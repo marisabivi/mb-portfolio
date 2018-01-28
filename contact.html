@@ -132,7 +132,7 @@
             </div>
 
             <div class="col-md-8">
-              <form id="contact-form" action="https://formspree.io/hello@marisabivi.ca" method="post">
+            <!--   <form id="contact-form" action="https://formspree.io/hello@marisabivi.ca" method="POST">
 
                 <div class="row">
                   <div class="col-md-6 contact-name">
@@ -144,8 +144,24 @@
                 </div>
 
                 <textarea name="comment" id="comment" rows="8" placeholder="Message"></textarea>
-                <input type="submit" class="btn btn-lg btn-color btn-submit" value="Send Message" id="submit-message">
+                <input type="submit" class="btn btn-lg btn-color btn-submit" value="Send" id="submit-message">
                 <div id="msg" class="message"></div>
+              </form>-->
+              <form action="https://formspree.io/hello@marisabivi.ca"  method="POST">
+                <div class="row">
+                  <div class="col-md-6 contact-name">
+                    <input name="name" id="name" type="text" placeholder="Name*">
+                  </div>
+                  <div class="col-md-6 contact-email">
+                    <input name="mail" id="_replyto" type="email" placeholder="E-mail*">
+                  </div>
+                </div>
+                <textarea name="comment" id="comment" rows="8" placeholder="Message"></textarea>
+                <input type="Send Message" class="btn btn-lg btn-color btn-submit" value="Send">
+                <input type="hidden" name="_next" value="thanks.html" />
+                <input type="hidden" name="_format" value="plain" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_subject" value="Your Inquiry to Marisa Bivi">
               </form>
             </div> <!-- end col -->
 
