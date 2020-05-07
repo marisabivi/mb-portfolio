@@ -39,64 +39,78 @@
 
   <div class="main-wrapper oh wrapper">
 
-    <!-- HEADER 1 FONT BLACK TRANSPARENT -->
-    <header class="nav-type-2 onepage-nav" id="home">
+    <header class="nav-type-2">
+      <nav class="navbar navbar-static-top">
+        <div class="navigation">
+          <div class="container relative">
 
-  		<nav class="navbar navbar-fixed-top">
-  			<div class="navigation-overlay dark">
-  				<div class="container-fluid semi-fluid relative">
+            <div class="row">
 
-  					<div class="row">
+              <div class="navbar-header">
+                <!-- Logo -->
+                <div class="logo-container">
+                  <div class="logo-wrap">
+                    <!-- <a href="index-ny.html">
+                      <img class="logo-dark" src="img/logo_dark.png" alt="logo">
+                    </a>-->
+                  </div>
+                </div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div> <!-- end navbar-header -->
 
-  						<div class="navbar-header">
-  							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-  								<span class="sr-only">Toggle navigation</span>
-  								<span class="icon-bar"></span>
-  								<span class="icon-bar"></span>
-  								<span class="icon-bar"></span>
-  							</button>
-  						</div> <!-- end navbar-header -->
+              <div class="nav-wrap right">
+                <div class="collapse navbar-collapse text-center" id="navbar-collapse">
 
-  						<!-- Logo -->
-  						<div class="logo-container">
-  							<div class="logo-wrap local-scroll">
-  								<a href="#home">
-  								<!--	<img class="logo" src="" alt="logo"> -->
-  								</a>
-  							</div>
-  						</div>
+                  <ul class="nav navbar-nav navbar-right">
 
-  						<div class="col-md-9 nav-wrap right">
-  							<div class="collapse navbar-collapse" id="navbar-collapse">
+                    <li class="dropdown">
+                      <a href="#bio">Bio</a>
+                      <i class="fa fa-angle-down dropdown-trigger"></i>
+                    </li> <!-- end features -->
 
-  								<ul class="nav navbar-nav local-scroll navbar-right">
+                    <li class="dropdown">
+                      <a href="#projects">Projects</a>
+                      <i class="fa fa-angle-down dropdown-trigger"></i>
+                    </li>
 
-  								 <!--	<li class="active">-->
-                   <li>
-  										<a href="#bio">Bio</a>
-  									</li>
-  									<li>
-  										<a href="#portfolio">Projects</a>
-  									</li>
-  									<li>
-  										<a href="#experience">Experience</a>
-  									</li>
-  									<li>
-  										<a href="#skills">Skills</a>
-  									</li>
-  									<li>
-  										<a href="#education">Education</a>
-  									</li>
+                    <li class="dropdown">
+                      <a href="#experience">Experience</a>
+                      <i class="fa fa-angle-down dropdown-trigger"></i>
+                    </li> <!-- end portfolio -->
 
-  								</ul>
-  							</div>
-  						</div> <!-- end col -->
+                    <li class="dropdown">
+                      <a href="#skills">Skills</a>
+                      <i class="fa fa-angle-down dropdown-trigger"></i>
+                    </li>
 
-  					</div> <!-- end row -->
-  				</div> <!-- end container -->
-  			</div> <!-- end navigation -->
-  		</nav> <!-- end navbar -->
-  	</header>
+                    <li class="dropdown">
+                      <a href="#education">Education</a>
+                      <i class="fa fa-angle-down dropdown-trigger"></i>
+                    </li>
+
+                    <!-- Search
+                    <li class="nav-social-icons nav-right hidden-sm hidden-xs">
+                      <div class="social-icons nobase dark">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                      </div>
+                    </li> -->
+
+                  </ul> <!-- end menu -->
+                </div> <!-- end collapse -->
+              </div> <!-- end col -->
+
+            </div> <!-- end row -->
+          </div> <!-- end container -->
+        </div> <!-- end navigation -->
+      </nav> <!-- end navbar -->
+    </header>
 
     <div class="content-wrapper oh">
       <main class="main-container">
@@ -116,7 +130,7 @@
     </div>
 
     <!-- Profile -->
-    <section class="section-wrap-lg pt-160 pb-110" id="bio">
+    <section class="section-wrap-lg pt-160 pb-80" id="bio">
       <div class="container">
         <div class="row">
           <div class="col-sm-6 mb-40">
@@ -162,8 +176,8 @@
 
     <!-- Portfolio-->
 
-    <section class="section-wrap-md" id="portfolio">
-      <div class="container">
+    <section class="section-wrap-md" >
+      <div class="container" id="projects">
             <h2 class="mont mb-40">Past Projects</h2>
 
       <!-- filters list
@@ -415,7 +429,7 @@
     </section>
 
       <!-- Work Experience -->
-      <section class="section-wrap-lg work-experience" id="experience">
+      <section class="section-wrap-sm work-experience" id="experience">
         <div class="container">
           <div class="row">
             <div class="col-sm-4 mb-40">
