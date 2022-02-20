@@ -37,62 +37,66 @@
     </div>
   </div>-->
 
-
-  <!--
-    <div class="social-icons nobase dark mt-40 text-right">
-      <a href="https://www.instagram.com/bivmari/"><i class="fa fa-instagram"></i></a>
-      <a href="https://www.behance.net/bivma"><i class="fa fa-behance"></i></a>
-      <a href="https://www.linkedin.com/in/marisa-bivi-62844b96/"><i class="fa fa-linkedin"></i></a>
-      <a href="mailto:hello@marisabivi.ca"><i class="fa fa-envelope"></i></a>
-    </div>-->
-
   <div class="main-wrapper oh wrapper">
 
-    <header class="nav-type-5 sticky-on-mobile">
-      <nav class="navbar navbar-fixed-top">
-        <div class="fs-menu" id="nav-overlay">
-          <div class="overlay-menu">
-            <ul class="nav navbar-nav local-scroll">
-              <li class="active"><a href="index.html">Home <span class="icon"><i class="icon-Right-2"></i></span></a></li>
-              <li><a href="portfolio.html">Portfolio <i class="icon-Right-2"></i></a></li>
-              <li><a href="about.html">About <i class="icon-Right-2"></i></a></li>
-              <li><a href="contact.html">Contact <i class="icon-Right-2"></i></a></li>
-            </ul>
+    <!-- HEADER 1 FONT BLACK TRANSPARENT -->
+    <header class="nav-type-2 onepage-nav" id="home">
 
-          </div>
-        </div>
-        <div  id="sticky-nav">
-          <div class="container-fluid semi-fluid relative clearfix">
-            <div class="row">
+  		<nav class="navbar navbar-fixed-top">
+  			<div class="navigation-overlay dark">
+  				<div class="container-fluid semi-fluid relative">
 
-              <div class="left">
-                <div class="logo-container">
-                  <div class="logo-wrap">
-                    <a href="index.html">
-                    <!--  <img class="logo-dark" src="img/logo_dark.png" alt="logo"> -->
-                    </a>
-                  </div>
-                </div>
-              </div>
+  					<div class="row">
 
-          <div class="nav-icon-wrap right">
-                <div id="nav-icon" class="style-2">
-                  <div class="nav-icon-inner">
-                    <a href="#" id="nav-icon-trigger-2" class="nav-icon-trigger">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </a>
-                  </div>
-                </div>
-              </div> 
+  						<div class="navbar-header">
+  							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+  								<span class="sr-only">Toggle navigation</span>
+  								<span class="icon-bar"></span>
+  								<span class="icon-bar"></span>
+  								<span class="icon-bar"></span>
+  							</button>
+  						</div> <!-- end navbar-header -->
 
-            </div>
-          </div> <!-- end container -->
-        </div>
-      </nav>
-    </header>
+  						<!-- Logo -->
+  						<div class="logo-container">
+  							<div class="logo-wrap local-scroll">
+  								<a href="#home">
+  								<!--	<img class="logo" src="" alt="logo"> -->
+  								</a>
+  							</div>
+  						</div>
+
+  						<div class="col-md-9 nav-wrap right">
+  							<div class="collapse navbar-collapse" id="navbar-collapse">
+
+  								<ul class="nav navbar-nav local-scroll navbar-right">
+
+  								 <!--	<li class="active">-->
+                   <li>
+  										<a href="#bio">Bio</a>
+  									</li>
+  									<li>
+  										<a href="#portfolio">Projects</a>
+  									</li>
+  									<li>
+  										<a href="#experience">Experience</a>
+  									</li>
+  									<li>
+  										<a href="#skills">Skills</a>
+  									</li>
+  									<li>
+  										<a href="#education">Education</a>
+  									</li>
+
+  								</ul>
+  							</div>
+  						</div> <!-- end col -->
+
+  					</div> <!-- end row -->
+  				</div> <!-- end container -->
+  			</div> <!-- end navigation -->
+  		</nav> <!-- end navbar -->
+  	</header>
 
     <div class="content-wrapper oh">
       <main class="main-container">
@@ -112,15 +116,14 @@
     </div>
 
     <!-- Profile -->
-    <section class="section-wrap-lg pt-160 pb-110">
+    <section class="section-wrap-lg pt-160 pb-110" id="bio">
       <div class="container">
         <div class="row">
           <div class="col-sm-6 mb-40">
             <h1 class="mont">Hello!<br>I am Marisa Bivi</h1>
             <span class="occupation">UX Designer</span>
-            <p>I am fueled by tea and sweets versus the staple coffee of most designers. However, you will still find me wearing a lot of black clothing.</p>
-            <p>I love creating simple yet memorable and effective solutions for clients facing challenges in branding, web design and UI/UX but I also enjoy working in illustration and photography.</p>
-          <!--  <p>I especially enjoy working on projects & clients who are involved in Hospitality, the Outdoors.</p> -->
+            <p>With a background in graphic design, I have a strong visual direction to UX projects. While I didn’t realize it right away, I've always had a passion for seamless user experiences; I analyze everything I see, question what is or isn’t and always think about how improvements could be made.</p>
+            <p>I enjoy collaborating with a team, especially users, to create delightful experiences in digital products. Solving difficult problems with simple solutions that appeal to users of assorted backgrounds and diverse needs is an approach I take pride in. However, I do have a tenacious weakness for tea and sweats. </p>
           </div>
           <div class="col-sm-5 col-sm-offset-1 profile">
             <table class="mt-40 mb-50">
@@ -158,8 +161,10 @@
     </section> <!-- end profile -->
 
     <!-- Portfolio-->
-    <section class="section-wrap-md">
+
+    <section class="section-wrap-md" id="portfolio">
       <div class="container">
+            <h2 class="mont mb-40">Past Projects</h2>
 
       <!-- filters list
         <div class="row">
@@ -194,22 +199,6 @@
                    </div>
                  </div> <!-- end work-item -->
 
-        <!--  <div class="work-item hover-trigger hover-2 branding">
-                <div class="work-container">
-                  <div class="work-img">
-                    <a href="portfolio-arctic-leaf.html">
-                      <img src="img/portfolio/12-1.png" alt="">
-                      <div class="hover-overlay" data-overlay="5">
-                        <div class="work-description">
-                          <h3 class="mont">Arctic Leaf</h3>
-                          <span>Logo Design, Branding // 2017</span>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div> end work-item -->
-
             <div class="work-item hover-trigger hover-2 apps">
               <div class="work-container">
                 <div class="work-img">
@@ -242,38 +231,6 @@
               </div>
             </div> <!-- end work-item -->
 
-    <!--    <div class="work-item hover-trigger hover-2 other">
-              <div class="work-container">
-                <div class="work-img">
-                  <a href="portfolio-zombie-heart.html">
-                    <img src="img/portfolio/2-1.jpg" alt="">
-                    <div class="hover-overlay" data-overlay="5">
-                      <div class="work-description">
-                        <h3 class="mont">Zombie Has My Heart</h3>
-                        <span>Illustration // 2015</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>  end work-item -->
-
-        <!-- <div class="work-item hover-trigger hover-2 branding">
-              <div class="work-container">
-                <div class="work-img">
-                  <a href="portfolio-totally-squared.html">
-                    <img src="img/portfolio/7-1.png" alt="">
-                    <div class="hover-overlay" data-overlay="5">
-                      <div class="work-description">
-                        <h3 class="mont">Totally Squared</h3>
-                        <span>Logo Design, Branding // 2017</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div> end work-item -->
-
             <div class="work-item hover-trigger hover-2 apps">
               <div class="work-container">
                 <div class="work-img">
@@ -290,22 +247,6 @@
               </div>
             </div> <!-- end work-item -->
 
-      <!--  <div class="work-item hover-trigger hover-2 branding">
-              <div class="work-container">
-                <div class="work-img">
-                  <a href="portfolio-galapagos-conservacy.html">
-                    <img src="img/portfolio/6-1.jpg" alt="">
-                    <div class="hover-overlay" data-overlay="5">
-                      <div class="work-description">
-                        <h3 class="mont">Galapagos Conservacy</h3>
-                        <span>Logo Design, Branding // 2016</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div> end work-item -->
-
             <div class="work-item hover-trigger hover-2 apps">
               <div class="work-container">
                 <div class="work-img">
@@ -321,40 +262,6 @@
                 </div>
               </div>
             </div> <!-- end work-item -->
-
-
-       <!-- <div class="work-item hover-trigger hover-2 branding">
-              <div class="work-container">
-                <div class="work-img">
-                  <a href="portfolio-warlan.html">
-                    <img src="img/portfolio/1-1.jpg" alt="">
-                    <div class="hover-overlay" data-overlay="5">
-                      <div class="work-description">
-                        <h3 class="mont">Warlan Electric</h3>
-                        <span>Logo Design, Branding // 2015</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div> end work-item -->
-
-          <!--  <div class="work-item hover-trigger hover-2 other">
-              <div class="work-container">
-                <div class="work-img">
-                  <a href="portfolio-photography.html">
-                    <img src="img/portfolio/p1-2.jpg" alt="">
-                    <div class="hover-overlay" data-overlay="5">
-                      <div class="work-description">
-                        <h3 class="mont">Misc Photography</h3>
-                        <span>Photography // 2013-2018</span>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div> end work-item -->
-
             <div class="work-item hover-trigger hover-2 apps">
               <div class="work-container">
                 <div class="work-img">
@@ -370,10 +277,70 @@
                 </div>
               </div>
             </div> <!-- end work-item -->
+      <!--  <div class="work-item hover-trigger hover-2 branding">
+                    <div class="work-container">
+                      <div class="work-img">
+                        <a href="portfolio-galapagos-conservacy.html">
+                          <img src="img/portfolio/6-1.jpg" alt="">
+                          <div class="hover-overlay" data-overlay="5">
+                            <div class="work-description">
+                              <h3 class="mont">Galapagos Conservacy</h3>
+                              <span>Logo Design, Branding // 2016</span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div> end work-item
 
+          <div class="work-item hover-trigger hover-2 branding">
+                  <div class="work-container">
+                     <div class="work-img">
+                        <a href="portfolio-warlan.html">
+                            <img src="img/portfolio/1-1.jpg" alt="">
+                            <div class="hover-overlay" data-overlay="5">
+                              <div class="work-description">
+                                <h3 class="mont">Warlan Electric</h3>
+                                <span>Logo Design, Branding // 2015</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                    </div>
+                  </div> end work-item
 
+           <div class="work-item hover-trigger hover-2 other">
+                <div class="work-container">
+                    <div class="work-img">
+                        <a href="portfolio-photography.html">
+                            <img src="img/portfolio/p1-2.jpg" alt="">
+                                <div class="hover-overlay" data-overlay="5">
+                                  <div class="work-description">
+                                <h3 class="mont">Misc Photography</h3>
+                                <span>Photography // 2013-2018</span>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+            </div>
+        </div> end work-item
 
-       <!-- <div class="work-item hover-trigger hover-2 apps">
+     <div class="work-item hover-trigger hover-2 branding">
+            <div class="work-container">
+              <div class="work-img">
+                <a href="portfolio-arctic-leaf.html">
+                  <img src="img/portfolio/12-1.png" alt="">
+                    <div class="hover-overlay" data-overlay="5">
+                      <div class="work-description">
+                          <h3 class="mont">Arctic Leaf</h3>
+                          <span>Logo Design, Branding // 2017</span>
+                   </div>
+                </div>
+              </a>
+            </div>
+          </div>
+       </div> end work-item >
+       <div class="work-item hover-trigger hover-2 apps">
               <div class="work-container">
                 <div class="work-img">
                   <a href="portfolio-minpinerie.html">
@@ -387,9 +354,9 @@
                   </a>
                 </div>
               </div>
-            </div> <!-- end work-item -->
+            </div>  end work-item
 
-            <!-- <div class="work-item hover-trigger hover-2 apps">
+            <div class="work-item hover-trigger hover-2 apps">
               <div class="work-container">
                 <div class="work-img">
                   <a href="portfolio-smartbrokr.html">
@@ -403,7 +370,38 @@
                   </a>
                 </div>
               </div>
-            </div>  end work-item -->
+            </div>  end work-item
+            <div class="work-item hover-trigger hover-2 other">
+                <div class="work-container">
+                    <div class="work-img">
+                        <a href="portfolio-zombie-heart.html">
+                            <img src="img/portfolio/2-1.jpg" alt="">
+                              <div class="hover-overlay" data-overlay="5">
+                                <div class="work-description">
+                                  <h3 class="mont">Zombie Has My Heart</h3>
+                                  <span>Illustration // 2015</span>
+                                </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+              <div class="work-item hover-trigger hover-2 branding">
+                      <div class="work-container">
+                        <div class="work-img">
+                          <a href="portfolio-totally-squared.html">
+                            <img src="img/portfolio/7-1.png" alt="">
+                            <div class="hover-overlay" data-overlay="5">
+                              <div class="work-description">
+                                <h3 class="mont">Totally Squared</h3>
+                                <span>Logo Design, Branding // 2017</span>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div> end work-item -->
 
           </div>  <!-- end portfolio container -->
         </div> <!-- end row -->
@@ -412,9 +410,10 @@
           <div class="col-md-12 text-center">
             <a href="#" class="btn btn-lg btn-light" id="load-more"><span>Load More</span></a>
           </div>
-        </div>
+        </div>-->
+      </div>
+    </section>
 
-      </div>-->
       <!-- Work Experience -->
       <section class="section-wrap-lg work-experience" id="experience">
         <div class="container">
@@ -441,12 +440,6 @@
                 <div><br/></div>
                 <p class="mb-0">While my education base was strong, as my first design job in an agency, I've learned a lot and still continue to grow my knowledge further everyday here. I've learned how to work with clients and meet their requirments whether its a onetime project like a website or PowerPoint to building a strong ongoing brand image from logo, to websites to creating content for their social media and email campaigns and much more.</p>
               </div>
-              <!-- div class="work-experience-item">
-                <h4>Kumon</h4>
-                <span class="time-period">Instructor // Aug 2010 - May 2016</span>
-                <div><br/></div>
-                <p class="mb-0">Originally starting out as a Kumon student myself I was asked to join the team I had looked up to. I worked with students, from Pre-K to Gr 12, in Math and Reading and trained new staff members who joined the team in procedures and job positions. Daily I would mark student work and input it for review and planning of future work as well as managing the student library.</p>
-              </div>-->
             </div>
           </div>
         </div>
@@ -457,7 +450,7 @@
         <hr class="nomargin">
       </div>
 
-      <div class="section-wrap-lg" id="skills">
+      <section class="section-wrap-lg" id="skills">
         <div class="container">
           <div class="row">
 
@@ -501,7 +494,7 @@
 
           </div>
         </div>
-      </div> <!-- end professional skills -->
+      </section> <!-- end professional skills -->
 
       <!-- divider -->
       <div class="container">
@@ -509,22 +502,18 @@
       </div>
 
       <!-- Education -->
-      <section class="section-wrap-lg education pb-110" id="education">
+      <section class="section-wrap-lg education pb-90" id="education">
         <div class="container">
           <div class="row">
             <div class="col-sm-4 mb-40">
               <h2 class="mont">Education</h2>
             </div>
-            <div class="col-sm-4 ">
+            <div class="col-sm-4">
               <div class="education-item">
                 <span class="time-period">2019-2020</span>
                 <h4>Ontario College Graduate Certificate in Interdisciplinary Studies in Human-Centred Design</h4>
                 <span class="place-of-study">Algonquin College</span>
               </div>
-            <!--  <div class="education-item">
-                <h4>Ontario College Graduate Certificate in Interdisciplinary Studies in Human-Centred Design</h4>
-                <span class="place-of-study">Algonquin College // 2019-2020</span>
-              </div>-->
             </div>
             <div class="col-sm-4">
               <div class="education-item">
@@ -532,17 +521,14 @@
                 <h4>Ontario College Advanced Diploma in Graphic Design</h4>
                 <span class="place-of-study">Algonquin College: School of Media & Design</span>
               </div>
-            <!--  <div class="education-item">
-                <span class="time-period">1999- 2004</span>
-                <h4>Bachelor of Computer Technology</h4>
-                <span class="place-of-study">St. Paul University</span>
-              </div>
             </div>
-          </div>-->
         </div>
-      </section> <!-- end education -->
+      </div>
 
-    </section> <!-- end portfolio -->
+      <section class="section-wrap-lg education pt-0">
+      </section>
+
+      </section> <!-- end education -->
 
       <!-- Footer Type-1 -->
         <footer class="bottom-footer footer" id="footer">
@@ -551,7 +537,7 @@
 
               <div class="col-sm-6 copyright sm-text-center">
                 <span>
-                  &copy; 2018-2019 Marisa Bivi</a>
+                  &copy; 2018-2020 Marisa Bivi</a>
                 </span>
               </div>
 
@@ -567,6 +553,10 @@
             </div>
           </div>
       </footer> <!-- end footer -->
+
+      <div id="back-to-top">
+        <a href="#top"><i class="fa fa-angle-up"></i></a>
+      </div>
 
     </div> <!-- end content wrapper -->
   </div> <!-- end main wrapper -->
