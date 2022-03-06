@@ -251,10 +251,10 @@ html {
     width: auto;
     height: auto;
     margin-right: 14px;
-    color: $dark-grey;
+    color: $bg-dark;
 
     &:hover {
-      color: $bg-dark;
+      color: $text-color;
       background-color: transparent !important;
     }
   }

@@ -1,3 +1,5 @@
 _site
-prepros.cfg
-*.css.map
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

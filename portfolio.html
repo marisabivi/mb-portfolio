@@ -40,19 +40,21 @@
 
   <main class="main-wrapper oh">
 
-    <header class="nav-type-5 sticky-on-mobile">
+    <header class="nav-type-1 sticky-on-mobile">
       <nav class="navbar navbar-fixed-top">
         <div class="fs-menu" id="nav-overlay">
+          <div class="fs-menu2"> </div>
           <div class="overlay-menu">
             <ul class="nav navbar-nav local-scroll">
-              <li><a href="index.html">Home <i class="icon-Right-2"></i></a></li>
-              <li class="active"><a href="portfolio.html" class="active">Portfolio <i class="icon-Right-2"></i></a></li>
-              <li><a href="about.html">About <i class="icon-Right-2"></i></a></li>
-              <li><a href="contact.html">Contact <i class="icon-Right-2"></i></a></li>
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="portfolio.html" class="active">Portfolio</a></li>
+              <li><a href="index.html#bio">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
-
           </div>
         </div>
+
+
         <div class="navigation-overlay" id="sticky-nav">
           <div class="container-fluid semi-fluid relative clearfix">
             <div class="row">
@@ -61,11 +63,12 @@
                 <div class="logo-container">
                   <div class="logo-wrap">
                     <a href="index.html">
-                      <img class="logo-dark" src="img/logo_dark.svg" alt="logo">
+                      <img class="logo-dark" src="img/m_dark.svg" alt="logo">
                     </a>
                   </div>
                 </div>
               </div>
+
 
               <div class="nav-icon-wrap right">
                 <div id="nav-icon" class="style-2">
@@ -79,6 +82,8 @@
                   </div>
                 </div>
               </div>
+
+
 
             </div>
           </div> <!-- end container -->
@@ -109,8 +114,8 @@
               <div class="portfolio-filter text-center">
                 <div class="portfolio-filter-wrap">
                   <a href="#" class="filter active" data-filter="*">All</a>
-                  <a href="#" class="filter" data-filter=".branding">Branding</a>
-                  <a href="#" class="filter" data-filter=".apps">Apps/Web Design</a>
+                  <a href="#" class="filter" data-filter=".apps" id="apps">Apps/Web Design</a>
+                  <a href="#" class="filter" data-filter=".branding" id="branding">Branding</a>
                   <a href="#" class="filter" data-filter=".other">Other</a>
                 </div>
               </div>
@@ -122,20 +127,36 @@
             <div id="portfolio-grid" class="works-grid grid-3-col gutter">
 
               <div class="work-item hover-trigger hover-2 apps">
-                     <div class="work-container">
-                       <div class="work-img">
-                         <a href="portfolio-deck-of-many.html">
-                           <img src="img/portfolio/13-1.png" alt="">
-                           <div class="hover-overlay" data-overlay="5">
-                             <div class="work-description">
-                               <h3 class="mont">The Deck of Many</h3>
-                               <span>UI, UX, Web Design // 2018</span>
-                             </div>
-                           </div>
-                         </a>
-                       </div>
-                     </div>
-                   </div> <!-- end work-item -->
+                <div class="work-container">
+                  <div class="work-img">
+                    <a href="portfolio-prontoforms.html">
+                      <img src="img/portfolio/15-1.jpg" alt="">
+                        <div class="hover-overlay" data-overlay="5">
+                          <div class="work-description">
+                            <h3 class="mont">ProntoForms</h3>
+                            <span>UI, UX // Ongoing</span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+              </div> <!-- end work-item -->
+
+              <div class="work-item hover-trigger hover-2 other">
+                <div class="work-container">
+                    <div class="work-img">
+                      <a href="portfolio-kampe.html">
+                        <img src="img/portfolio/16-1.jpg" alt="">
+                        <div class="hover-overlay" data-overlay="5">
+                          <div class="work-description">
+                            <h3 class="mont">Project Kampe</h3>
+                            <span>UX Research // 2020</span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+              </div> <!-- end work-item -->
 
               <div class="work-item hover-trigger hover-2 branding">
                   <div class="work-container">
@@ -153,6 +174,54 @@
                   </div>
                 </div>  <!-- end work-item -->
 
+                <div class="work-item hover-trigger hover-2 apps">
+                  <div class="work-container">
+                    <div class="work-img">
+                      <a href="portfolio-Keystone.html">
+                        <img src="img/portfolio/18-1.png" alt="">
+                          <div class="hover-overlay" data-overlay="5">
+                            <div class="work-description">
+                              <h3 class="mont">Keystone</h3>
+                              <span>App, UX, UI // 2019</span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                </div> <!-- end work-item -->
+
+                <div class="work-item hover-trigger hover-2 other">
+                  <div class="work-container">
+                    <div class="work-img">
+                      <a href="portfolio-zombie-heart.html">
+                        <img src="img/portfolio/2-1.jpg" alt="">
+                        <div class="hover-overlay" data-overlay="5">
+                          <div class="work-description">
+                            <h3 class="mont">Zombie Has My Heart</h3>
+                            <span>Illustration // 2015</span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div> <!-- end work-item -->
+
+                <div class="work-item hover-trigger hover-2 apps">
+                  <div class="work-container">
+                      <div class="work-img">
+                        <a href="portfolio-CounterFighter.html">
+                          <img src="img/portfolio/19-1.jpg" alt="">
+                          <div class="hover-overlay" data-overlay="5">
+                            <div class="work-description">
+                              <h3 class="mont">CounterFighter</h3>
+                              <span>App, UX, UI // 2018</span>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                </div> <!-- end work-item -->
+
               <div class="work-item hover-trigger hover-2 apps">
                 <div class="work-container">
                   <div class="work-img">
@@ -162,38 +231,6 @@
                         <div class="work-description">
                           <h3 class="mont">Access E11</h3>
                           <span>App Design, UI, UX // 2017</span>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div> <!-- end work-item -->
-
-              <div class="work-item hover-trigger hover-2 apps">
-                <div class="work-container">
-                  <div class="work-img">
-                    <a href="portfolio-eFactor.html">
-                      <img src="img/portfolio/3-1.jpg" alt="">
-                      <div class="hover-overlay" data-overlay="5">
-                        <div class="work-description">
-                          <h3 class="mont">The eFactor</h3>
-                          <span>Web Design, UX, UI // 2018</span>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div> <!-- end work-item -->
-
-              <div class="work-item hover-trigger hover-2 other">
-                <div class="work-container">
-                  <div class="work-img">
-                    <a href="portfolio-zombie-heart.html">
-                      <img src="img/portfolio/2-1.jpg" alt="">
-                      <div class="hover-overlay" data-overlay="5">
-                        <div class="work-description">
-                          <h3 class="mont">Zombie Has My Heart</h3>
-                          <span>Illustration // 2015</span>
                         </div>
                       </div>
                     </a>
@@ -225,12 +262,44 @@
                       <div class="hover-overlay" data-overlay="5">
                         <div class="work-description">
                           <h3 class="mont">Off</h3>
-                          <span>App Design, UI, UX, Motion // 2015</span>
+                          <span>App, UX, UI, Motion // 2015</span>
                         </div>
                       </div>
                     </a>
                   </div>
                 </div>
+              </div> <!-- end work-item -->
+
+              <div class="work-item hover-trigger hover-2 apps">
+                <div class="work-container">
+                  <div class="work-img">
+                    <a href="portfolio-deck-of-many.html">
+                      <img src="img/portfolio/13-1.png" alt="">
+                        <div class="hover-overlay" data-overlay="5">
+                          <div class="work-description">
+                            <h3 class="mont">The Deck of Many</h3>
+                            <span>Web, UX, UI // 2018</span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+              </div> <!-- end work-item -->
+
+              <div class="work-item hover-trigger hover-2 branding">
+                <div class="work-container">
+                  <div class="work-img">
+                    <a href="portfolio-neature.html">
+                      <img src="img/portfolio/17-1.png" alt="">
+                        <div class="hover-overlay" data-overlay="5">
+                          <div class="work-description">
+                            <h3 class="mont">Neature</h3>
+                            <span>Logo Design // 2020 </span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
               </div> <!-- end work-item -->
 
               <div class="work-item hover-trigger hover-2 branding">
@@ -257,7 +326,7 @@
                       <div class="hover-overlay" data-overlay="5">
                         <div class="work-description">
                           <h3 class="mont">SMCQ</h3>
-                          <span>Web Design, UX, UI // 2017</span>
+                          <span>Web, UX, UI // 2017</span>
                         </div>
                       </div>
                     </a>
@@ -282,6 +351,22 @@
                 </div>
               </div> <!-- end work-item -->
 
+              <div class="work-item hover-trigger hover-2 apps">
+                <div class="work-container">
+                  <div class="work-img">
+                    <a href="portfolio-MyPraluent.html">
+                      <img src="img/portfolio/8-1.jpg" alt="">
+                      <div class="hover-overlay" data-overlay="5">
+                        <div class="work-description">
+                          <h3 class="mont">MyPraluent Coach</h3>
+                          <span>App, UX, UI // 2017</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div> <!-- end work-item -->
+
               <div class="work-item hover-trigger hover-2 other">
                 <div class="work-container">
                   <div class="work-img">
@@ -297,24 +382,6 @@
                   </div>
                 </div>
               </div> <!-- end work-item -->
-
-              <div class="work-item hover-trigger hover-2 apps">
-                <div class="work-container">
-                  <div class="work-img">
-                    <a href="portfolio-MyPraluent.html">
-                      <img src="img/portfolio/8-1.jpg" alt="">
-                      <div class="hover-overlay" data-overlay="5">
-                        <div class="work-description">
-                          <h3 class="mont">MyPraluent Coach</h3>
-                          <span>UI, UX, App Design // 2017</span>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div> <!-- end work-item -->
-
-
 
          <!-- <div class="work-item hover-trigger hover-2 apps">
                 <div class="work-container">
@@ -373,10 +440,10 @@
 
               <div class="col-sm-4 col-sm-offset-2 footer-socials mt-mdm-10">
                 <div class="social-icons text-right sm-text-center">
-                  <a href="https://www.instagram.com/bivmari/"><i class="fa fa-instagram"></i></a>
-                  <a href="https://www.behance.net/bivma"><i class="fa fa-behance"></i></a>
-                  <a href="https://www.linkedin.com/in/marisa-bivi-62844b96/"><i class="fa fa-linkedin"></i></a>
-                  <a href="mailto:hello@marisabivi.ca"><i class="fa fa-envelope"></i></a>
+                  <a href="https://www.linkedin.com/in/marisa-bivi-62844b96/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  <a href="https://www.behance.net/bivma" target="_blank"><i class="fa fa-behance"></i></a>
+                  <a href="https://www.instagram.com/bivmari/" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a href="mailto:hello@marisabivi.ca" target="_blank"><i class="fa fa-envelope"></i></a>
                 </div>
               </div>
 
@@ -389,6 +456,7 @@
       </div>
 
     </div> <!-- end content wrapper -->
+  </div>
   </main> <!-- end main wrapper -->
 
   <!-- jQuery Scripts -->

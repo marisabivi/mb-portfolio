@@ -26,7 +26,8 @@
     float:none
   }
   .navbar-nav > li >a {
-    padding-top:10px;padding-bottom:10px
+    padding-top:10px;
+    padding-bottom:10px
   }
   .collapse.in {
     display:block!important
@@ -767,7 +768,7 @@ input.main-search-input:-ms-input-placeholder {
 
 .overlay-menu {
   position: relative;
-  top: 50%;
+  top: 30%;
   padding-right: 20%;
   @include transform (translateY(-50%));
   text-align: right;
@@ -802,7 +803,7 @@ input.main-search-input:-ms-input-placeholder {
     position: relative;
     overflow: hidden;
     font-family: $heading-font;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: -0.02em;
     color: $yellow;
     padding: 15px 0;
@@ -862,7 +863,7 @@ body.fs-open {
   background-color: rgba(0,0,0,0.9);
   top: 0;
   right: 0;
-  width: 100%;
+  width: 20%;
   height: 100%;
   opacity: 0;
   visibility: hidden;
@@ -888,6 +889,33 @@ body.fs-open {
   }
 }
 
+.fs-menu2,
+.fs-menu2.open{
+  @include transition (all .2s linear);
+
+  .content-wrapper::before {
+    background-color: rgba(0,0,0,0);
+  }
+}
+
+.fs-menu2 {
+  position: fixed;
+  background-color: rgba(0,0,0,0.9);
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  visibility: hidden;
+  overflow: hidden;
+
+  &.open {
+    visibility: visible;
+    z-index: 400;
+    opacity: 1;
+  }
+}
+
 @keyframes NavLinksScale { 0% { opacity: 0; @include transform(scale(2.2)); bottom: 50px; } 100% { opacity: 1; @include transform(scale(1.1)); bottom: 0; }}
 @-webkit-keyframes NavLinksScale { 0% { opacity: 0; @include transform(scale(2.2)); bottom: 50px; } 100% { opacity: 1; @include transform(scale(1.1)); bottom: 0; }}
 @-moz-keyframes NavLinksScale { 0% { opacity: 0; @include transform(scale(2.2)); bottom: 50px; } 100% { opacity: 1; @include transform(scale(1.1)); bottom: 0; }}
@@ -907,7 +935,7 @@ body.fs-open {
     width: auto;
     margin: 0 14px 0 0;
     font-size: 13px;
-    color: $light-grey !important;
+    color: $dark-grey !important;
   }
 }
 
@@ -975,3 +1003,102 @@ body.fs-open {
 /*-------------------------------------------------------*/
 /* Navigation Mobile Styles
 /*-------------------------------------------------------*/
+
+@media only screen and (max-width: 1250px) {
+  .fs-menu {
+    position: fixed;
+    background-color: rgba(0,0,0,0.9);
+    top: 0;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+
+    &.open {
+      visibility: visible;
+      z-index: 501;
+      opacity: 1;
+    }
+
+    &.open li {
+      -webkit-animation: NavLinksScale .35s ease forwards;
+      -moz-animation: NavLinksScale .35s ease forwards;
+      -ms-animation: NavLinksScale .35s ease forwards;
+      -o-animation: NavLinksScale .35s ease forwards;
+      animation: NavLinksScale .35s ease forwards;
+      -webkit-animation-delay: .10s;
+      -moz-animation-delay: .10s;
+      -ms-animation-delay: .10s;
+      -o-animation-delay: .10s;
+      animation-delay: .10s;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .fs-menu {
+    position: fixed;
+    background-color: rgba(0,0,0,0.9);
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+
+    &.open {
+      visibility: visible;
+      z-index: 501;
+      opacity: 1;
+    }
+
+    &.open li {
+      -webkit-animation: NavLinksScale .35s ease forwards;
+      -moz-animation: NavLinksScale .35s ease forwards;
+      -ms-animation: NavLinksScale .35s ease forwards;
+      -o-animation: NavLinksScale .35s ease forwards;
+      animation: NavLinksScale .35s ease forwards;
+      -webkit-animation-delay: .10s;
+      -moz-animation-delay: .10s;
+      -ms-animation-delay: .10s;
+      -o-animation-delay: .10s;
+      animation-delay: .10s;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .fs-menu {
+    position: fixed;
+    background-color: rgba(0,0,0,0.9);
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+
+    &.open {
+      visibility: visible;
+      z-index: 501;
+      opacity: 1;
+    }
+
+    &.open li {
+      -webkit-animation: NavLinksScale .35s ease forwards;
+      -moz-animation: NavLinksScale .35s ease forwards;
+      -ms-animation: NavLinksScale .35s ease forwards;
+      -o-animation: NavLinksScale .35s ease forwards;
+      animation: NavLinksScale .35s ease forwards;
+      -webkit-animation-delay: .10s;
+      -moz-animation-delay: .10s;
+      -ms-animation-delay: .10s;
+      -o-animation-delay: .10s;
+      animation-delay: .10s;
+    }
+  }
+}
