@@ -80,7 +80,7 @@
 
     .nav-right,
     .nav-social-icons .social-icons a {
-      color: $yellow;
+      color: $heading-color;
 
       &:hover {
         color: #000 !important;
@@ -935,7 +935,7 @@ body.fs-open {
     width: auto;
     margin: 0 14px 0 0;
     font-size: 13px;
-    color: $yellow !important;
+    color: $dark-grey !important;
   }
 }
 
