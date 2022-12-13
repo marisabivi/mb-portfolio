@@ -79,7 +79,7 @@ hr {
 }
 
 .section-wrap-sm {
-  padding: 100px 0;
+  padding: 60px 0;
   overflow: hidden;
   background-attachment: fixed;
   background-size: cover;
@@ -113,8 +113,8 @@ hr {
   background-color: #333;
 }
 
-.bg-darkblue {
-  background-color: #152332;
+.bg-black {
+  background-color: #292929;
 }
 
 .bg-light {
