@@ -2,3 +2,5 @@ Sitemap: http://marisabivi.github.io/mb-portfolio/
 
 User-agent: *
 Dissallow: /portfolio-smartbrokr.html
+Dissallow: /portfolio-template.html
+Dissallow: /portfolio-single.html
