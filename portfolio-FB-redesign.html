@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Portal Navigation Redesign // Marisa Bivi</title>
+  <title>Platform Redesign // Marisa Bivi</title>
 
   <meta charset="utf-8">
   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
@@ -100,7 +100,8 @@
 
 
 
-    <div class="content-wrapper oh">
+    <div class="content-wrapper oh"> <!--Main Content -->
+
       <section class="section-wrap-sm portfolio-single">
         <div class="container">
           <div class="row">
@@ -111,7 +112,7 @@
                 <div class="gallery-cell work-item">
                   <div class="work-container">
                     <div class="work-img">
-                      <img src="img/UX/2020B-2.jpg" alt="">
+                      <img src="img/UX/2022A-1B.jpg" alt="">
                     </div>
                   </div>
                 </div> <!-- end work-item -->
@@ -136,15 +137,16 @@
 
             <div class="col-md-5 project-description">
               <div>
-                <h2><small>Portal Navigation Redesign</small></h2>
-                <p>Discussions about adding the portal redesign to the company roadmap had been ongoing long before I joined the R&D department in 2019. During a slow period for the UX team, our lead asked me to start with a new portal navigation design.</p>
+                <h2><small>Platform Redesign</small></h2>
+                <p>After a new logo and brand were revealed by Marketing in 2021, the next milestone for the company was a refreshed platform look to match.</p>
+                <p>In addition, as a number of users make calls to support and CX to accomplish their goals in the platform, the timing was perfect to revisit the UX. By simplifiying the platform's UX, we hope to see less calls to Support and CX.</p>
               </div>
               <div class="project-info mt-30">
                 <hr>
                 <div class="product_meta">
                   <div class="detail-wrap">
                     <span class="detail-label">Date:</span>
-                    <span class="detail-value">2020</span>
+                    <span class="detail-value">2022-2023</span>
                   </div>
                   <div class="detail-wrap">
                     <span class="detail-label">Category:</span>
@@ -152,7 +154,7 @@
                   </div>
                   <div class="detail-wrap">
                     <span class="detail-label">Client:</span>
-                    <span class="detail-value">ProntoForms</span>
+                    <span class="detail-value">FigBytes</span>
                   </div>
                 <!--  <div class="detail-wrap">
                     <span class="detail-label">Prototypes:</span>
@@ -194,152 +196,251 @@
 
                   <div class="col-md-6">
                     <div class="about-description mb-40">
-                      <h2>Starting with Secondary Research</h2>
-                      <p class="mb-20">I decided to start with secondary research. First taking a look at competitors for trends and then best UX practices for building a navigation. Looking at competitors, I wanted to see if there was a standard location users might expect to find the navigation. I found a mix of top and side navigations meaning there was no clear path to execute based on <a href="https://lawsofux.com/jakobs-law/" target="_blank" rel="noreferrer noopener">Jakob’s Law</a> - but it was even more clear just how out-of-date our navigation is. I took screen shots to compile in a presentation as I felt the team might’ve been slightly desensitized to the current look since they are likely not visiting competitor platforms frequently.</p>
+                      <h2>Current Issues + Goals</h2>
+                      <p>To showcase the changes, the stakeholders agreed on 6 pages as a starting point for a proof of concept. These pages are central to the flows for setting up a new account. I contributed to varying degrees on 5 flows to help the UX Lead with the massive project. Current problems in these pages (and the whole platform) are:
+                      <ul>
+                        <li>• Many pages have multiple conflicting purposes and the connections are unclear</li>
+                        <li>• Vague labels on inputs and sections</li>
+                        <li>• Some inputs are redundant or have no impact</li>
+                        <li>• Some info needs to be completed in modals - which vary in complexity</li>
+                      </ul></p>
+                      <p>The redesign needs to be WCAG AA compliant and responsive for tablets. As the platform is so information-dense, we didn’t feel a good mobile experience could be provided*. The Devs will complete the work of switching to a new code framework during the project.</p>
+                      <p><i>* Perhaps we can build a lite version of the platform to meet any mobile demand later.</i></p>
                     </div>
                   </div> <!-- end col -->
 
-                  <div class="col-md-6">
-                    <div class="promo-img">
-                      <p class="mb-0">While researching best practices, I found 3 key insights that shaped the direction I would take the navigation redesign in. First, that top navigations work best for menus that have 3-5 options. Navigations that have more options than that do well as a side menu. The second insight was Visual Fixation. Based on Visual Fixation, users would be able to skim the side navigation menu items more quickly than in a top navigation. The final information piece was a <a href="https://medium.com/ashleycrutcher/hover-vs-click-navigation-a260a8d51d81 target="_blank" rel="noreferrer noopener"">poll</a> that should roughly 67% of users disliking hover-drop-downs, which is what the current navigation uses.</p>
-                    </div>
-                  </div> <!-- end col -->
-              </div> <!-- end row -->
-
               <div class="col-md-6">
                 <div class="promo-img">
-                  <img src="img/UX/2020B-3.jpg" alt="" class="img-fw">
+                  <img src="img/UX/2022A-2.jpg" alt="" class="img-fw">
                 </div>
               </div> <!-- end col -->
 
-              <div class="col-md-6">
-                <div class="promo-img">
-                  <img src="img/UX/2020B-4.jpg" alt="" class="img-fw">
-                </div>
-              </div> <!-- end col -->
-
+              </div>
             </div>
           </section> <!-- end research -->
 
             <!-- Mockups -->
             <section class="section-wrap-sm bg-dark" id="screenshots">
               <div class="container">
+                <div class="row">
 
-                <section id="skills">
-                  <div class="container">
-                    <div class="row">
-
-                      <div class="col-sm-4 mb-40">
-                        <h2>Working in Sketch</h2>
-                      </div>
-
-                      <div class="col-sm-8">
-                        <p class="mb-20">With this information in hand, I moved on to building designs for the new side navigation. Laying out all the menu links in a single view felt crowded and overwhelming. Based on some earlier interviews with users for research to a separate matter, I noticed a use pattern of the platform forming: Users would set up their account (users, production spaces etc.) but after that would be more focused on building and managing their forms. Only occasionally making changes to the setup areas or users. I wanted to design a menu that grouped these areas to allow users to better focus on the information relevant to their tasks.</p>
-                        <p class="mb-20">I showed my samples of my navigation work to different team members to get input. The lead developer was particulalry excited to see the designs coming together. The most notible feedback in these early showings was that it was difficult to understand the icons so I included small text under each icon.</p>
-                      </div>
-
-                      </div>
-                    </div>
-
+                  <div class="col-sm-4 mb-40">
+                    <h2>Style Guide</h2>
                   </div>
 
-                  <div class="container">
-                    <div class="work-img">
-
-                      <div class="col-sm-4 mb-40">
-                        <img src="img/UX/2020B-3A.jpg" alt="">
-                      </div>
-
-                      <div class="col-sm-4 mb-40">
-                        <img src="img/UX/2020B-3B.jpg" alt="">
-                      </div>
-
-                      <div class="col-sm-4 mb-40">
-                        <img src="img/UX/2020B-3c.jpg" alt="">
-                      </div>
-
-                    </div>
+                  <div class="col-sm-8">
+                    <p class="mb-20">AAs a starting point, we needed to review the current brand guidelines and figure out how to use them within the platform – making any changes for the best UX/UI. The Senior Designer and I worked on style guide options as the starting point for the new product look. The UX and marketing teams reviewed the style guides to narrow the options. The next step was to mockup a sample dashboard using our top colour pallets, icons and fonts to make final choices. We agreed on solid icons, a card-style UI and a web font with broad language support before moving forward.</p>
                   </div>
 
-                </section> <!-- end mockups-->
-
-
-            <!-- user testing -->
-              <section class="section-wrap-sm bg-dark pb-100 pb-mdm-40">
-                <div class="container">
-                  <div class="row">
-
-                    <div class="col-sm-6">
-                      <div class="about-description mb-40">
-                          <h2>A/B Testing with Users</h2>
-                          <p class="mb-20">At the end, the team decided to conduct A/B testing with two menu types. One which was expanded and then the tab navigation which I built as prototypes using proto.io. We opted to test with 10 users because this would be a large change to the platform that would affect every user. Though this number became 13 – extra users sat in on some sessions and shared their opinions. In a notable session the user sounded initially displeased to hear about the redesign. However, at the end of the session when I asked if the users had any questions for us and they said, “when will I see this live in the platform?” After completing the test, the user seemed much more receptive to the upcoming changes.</p>
-                      </div>
-                    </div> <!-- end col -->
-
-                    <div class="col-sm-6">
-                        <div class="about-description mb-40">
-                          <h2>Key Insights from Testing</h2>
-                          <ul>
-                            <p>Preference for option A started strong but, in the end, more users preferred option B. </p>
-                            <p>One user brought their own drawings of the navigation. The drawing clearly dictated a side navigation and the user was really pleased to see our design.</p>
-                            <p>Users struggled to identitfy that 'FormSpace' was a button. We hope the hover to indicate it is interactive will be more obvious with code and overtime.</p>
-                            <p>Only one user mentioned having a preference for navigations with hover.</p>
-                          </ul>
-                        </div>
-                    </div> <!-- end col -->
                 </div>
               </div>
 
-              <div class="col-md-10 col-md-offset-1">
-                <div class="promo-img">
-                  <img src="img/UX/2020B-5.jpg" alt="" class="img-fw">
+              <div class="container">
+                <div class="row">
+
+                  <div class="col-sm-4 mb-40">
+                    <img src="img/UX/2022A-3.jpg" alt="">
+                  </div>
+
+                  <div class="col-sm-4 mb-40">
+                    <img src="img/UX/2022A-4.jpg" alt="">
+                  </div>
+
+                  <div class="col-sm-4 mb-40">
+                    <img src="img/UX/2022A-5.jpg" alt="">
+                  </div>
+
                 </div>
-              </div> <!-- end col -->
+              </div>
+          </section> <!-- end mockups-->
 
 
+            <!-- Navigation -->
+              <section class="section-wrap-sm bg-dark pb-mdm-40">
+                <div class="container">
+                  <div class="row">
+
+                    <div class="col-sm-12">
+                      <h2>Navigation Design</h2>
+                    </div>
+
+                    <div class="col-sm-6">
+                      <div class="about-description mb-40">
+                          <p class="mb-20">I was tasked with redesigning the massive navigation. I worked on both side menu and top menus until no more variations came to mind. From previous <a href=" portfolio-navigation.html" target="blank">navigation design research</a> I had done, I expected a side nav would be the best option. However, the number of links and levels in the navigation worked against this. After speaking with the UX Lead we picked one of the top-level options. I continued to polish the colours after the decision. The gradient look wasn't something I would typically try, but I liked it a lot. I was surprised many key stakeholders liked it as well, but as it reached the broader group there was a strong divide.</p>
+                          <p>At a later date, the CEO requested we revisit the colours. The Lead and Senior designer each provided 2 additional colour variations, and I provided one more. These 6 versions got compiled into a survey that the UX Researcher ran internally (due to time constraints for a week). The researcher shared the in-depth results but in short: Blue (27%), Teal (25%) and Grey (23%). Based on the quantitative data and qualitative inputs, the CEO opted for the blue. I was happy both my colour options were in the top 3 and pleased to see that, as a collective, many felt the turquoise design best matched the brand feel – even if they didn't necessarily like it.</p>
+                      </div>
+                    </div> <!-- end col -->
+
+                    <div class="col-md-6">
+                      <div class="promo-img">
+                        <img src="img/UX/2022A-6.jpg" alt="" class="img-fw">
+                      </div>
+                    </div> <!-- end col -->
+
+                  </div>
+                </div>
+
+              <div class="container">
+                <div class="row">
+
+                  <div class="col-md-4">
+                    <div class="promo-img">
+                      <img src="img/UX/2022A-7.jpg" alt="" class="img-fw">
+                    </div>
+                  </div> <!-- end col -->
+
+                  <div class="col-md-4">
+                    <div class="promo-img">
+                      <img src="img/UX/2022A-8.jpg" alt="" class="img-fw">
+                    </div>
+                  </div> <!-- end col -->
+
+                  <div class="col-md-4">
+                    <div class="promo-img">
+                      <img src="img/UX/2022A-9.jpg" alt="" class="img-fw">
+                    </div>
+                  </div> <!-- end col -->
+
+                </div>
+              </div>
+
+            </section> <!-- end navigation -->
+
+            <!-- Wrapping up -->
+            <section class="section-wrap-sm work-experience" id="experience">
+              <div class="container">
+                <div class="row">
+
+                  <div class="col-sm-4 mb-40">
+                    <h2>Building the Design System</h2>
+                  </div>
+
+                  <div class="col-sm-8">
+                    <p class="mb-20">Due to the tight time constraints for milestone one of the refresh, we opted to use a base library and build from there. We reviewed options as a team and picked one that used material design foundations. The UX Lead and I then completed minor changes to colours, spacing and typography. Then larger changes like filling in gaps, editing components we didn't like and swapping out icon sets. The devs used this library as a base to build the code counterparts.</p>
+                    <p>This was my first library built in Figma. I found it was relatively trouble-free and far more flexible than the Sketch Library I worked on in the past! The whole design team enjoys the library, and their uptake has been pretty easy. In addition to this library, I hope to build additional guidelines and information to help the team use our library to its fullest.</p>
+                  </div>
+
+                </div>
+              </div>
+            </section>
 
 
-              </section> <!-- end user testing -->
-
-              <!-- Wrapping up -->
+              <!-- Page Designs -->
               <section class="section-wrap-sm work-experience" id="experience">
                 <div class="container">
                   <div class="row">
+
                     <div class="col-sm-4 mb-40">
-                      <h2>Wrapping it Up</h2>
+                      <h2>Finalizing Page Design</h2>
                     </div>
+
                     <div class="col-sm-8">
-                      <div class="work-experience-item">
-                        <p class="mb-0">I compiled my research, the users' feedback and some stats comparing the number of clicks and time to navigate the old navigation and the new design into a report that the UX lead presented to stakeholders. The result was that the navigation design (the start of the portal redesign) would be added to the product roadmap for the following year. I got to see development start before leaving ProntoForms and hope that upon launch at a larger scale, the design continued to recieve positive feedback.</p>
-                      </div>
+                      <p class="mb-20">Our initial direction for pages was card style, but we switched to a flat design not to shortly after. The UX Lead showed some of his preliminary work to the UX team, explaining how he felt something was off. I encouraged him to try a flat design instead. After making the change he was much more pleased with the design. I also provided him suggestions for the buttons and tie in elements better.</p>
+                      <p class="mb-20">The UX Researcher met with users to show off samples of the new look. Some minor changes were needed to improve comprehension on a couple of pages, but all were really excited about the new look. One question I asked the Researcher to include was, "What other products does this new look feel like?" to which participants gave names like Apple, Microsoft and Wealthsimple. All these brands and products are viewed in high regard!</p>
                     </div>
+
                   </div>
                 </div>
-              </section> <!-- end wrapping up -->
+
+                <div class="container">
+                  <div class="row mb-40">
+
+                    <div class="col-md-6">
+                      <div class="promo-img">
+                        <img src="img/UX/2022A-10.png" alt="" class="img-fw">
+                      </div>
+                    </div> <!-- end col -->
+
+                    <div class="col-md-6">
+                      <div class="promo-img">
+                        <img src="img/UX/2022A-11.png" alt="" class="img-fw">
+                      </div>
+                    </div> <!-- end col -->
+
+                  </div>
+                </div>
+
+                <div class="container">
+                  <div class="row mb-40">
+
+                    <div class="col-sm-6">
+                      <div class="work-experience-item">
+                        <p class="mb-20">One key page I worked on was the Facility page. My designs were a huge change to the current table of information on the page. Given this and the short timeline, we put this new UI on the back burner for the time being. While I am confident in this design, I would like to speak with users about the current page first; what they like, dislike or any problems they have with it.</p>
+                        <p>I hope it won't be too long before I get to continue making progress with this page. I think the new dashboard look will be much more helpful to users through the map and high-level stats to provide better insights about facilities. Also, this new look shows the add-on options in a meaningful way. Users being aware of the add-ons was a key concern for a few Project managers.</p>
+                    </div>
+                  </diV>
+
+                </div>
+              </diV>
+
+              <div class="container">
+                <div class="row mb-40">
+
+                  <div class="col-md-4">
+                    <div class="promo-img">
+                      <img src="img/UX/2022A-12.jpg" alt="" class="img-fw">
+                    </div>
+                  </div> <!-- end col -->
+
+                  <div class="col-md-4">
+                    <div class="promo-img">
+                      <img src="img/UX/2022A-13.jpg" alt="" class="img-fw">
+                    </div>
+                  </div> <!-- end col -->
+
+                  <div class="col-md-4">
+                    <div class="promo-img">
+                      <img src="img/UX/2022A-14.jpg" alt="" class="img-fw">
+                    </div>
+                  </div> <!-- end col -->
+
+                </div>
+              </div>
+
+              <div class="container">
+                <div class="row">
+
+                  <div class="col-sm-6">
+                    <div class="work-experience-item">
+                      <p>One change I am particularly proud of working on was the addition of the Advanced tab for facilities. This change came about after lengthy chats with different internal stakeholder to understand the actual use of a couple inputs on the Organzation profile. These names matched with other platform functions (but have different behaviours) and missed showcasing their connection or impact on facilities.</p>
+                      <p>Moving them from the Organization page reduced inputs but, more importantly, improved understanding when tested with users due to the closer proximity: Especially with new names and descriptive text to explain their functions. The new UI now displays the lists of user contributions and the add button is visible – this makes the behviours consistent. Previously one of the lists was hidding in a model, and the add button wasn't clear for the other.</p>
+                      <p>In addition, stakeholders happily welcomed the change! This was a relief as sometimes there could be strong attachments to previous functions that the UX team would have to navigate when suggesting new solutions.</p>
+                    </div>
+                  </div/>
+
+                  <div class="col-md-6">
+                    <div class="promo-img">
+                      <img src="img/UX/2022A-15.jpg" alt="" class="img-fw">
+                    </div>
+                  </div> <!-- end col -->
+
+                </div>
+              </div>
+
+          </section>
 
               <!-- Reflection -->
-                <section class="section-wrap-sm bg-dark pb-100 pb-mdm-40">
-                  <div class="container">
-                    <div class="row">
+              <section class="section-wrap-sm bg-dark" id="screenshots">
+                <div class="container">
 
-                      <div class="col-sm-6">
-                        <div class="about-description mb-40">
-                          <h2>Looking Back</h2>
-                          <p class="mb-20">These are a couple of things I would do differently with more time and different resources:</p>
-                          <ol>
-                            <li>If there was more time, I would have futher refined the final look for the full list navigation. While it is an improvement, I think it could be even better.</li>
-                            <li>With different tools and availbility from other team members, I would have liked for the users to choose one of the new designs and use it for a month (via actual code). Then review the information that would come back from such a test. Doing this would have tested the learnability of the new design. I'm also curious if a longer trial with more natural and daily use would have changed the users' preference? Perhaps, users would have noticed the tab navigation let them focus on their task as it matched their journey in the platform.</li>
-                          </ol>
-                        </div>
-                      </div> <!-- end col -->
+                  <section id="skills">
+                    <div class="container">
+                      <div class="row">
 
-                      <div class="col-md-5 col-md-offset-1">
-                        <div class="promo-img">
-                          <img src="img/UX/2020B-6.jpg" alt="" class="img-fw">
+                        <div class="col-sm-4 mb-40">
+                          <h2>Moving Forward</h2>
                         </div>
-                      </div> <!-- end col -->
-                  </div>
-                </section> <!-- end reflection -->
+
+                        <div class="col-sm-8">
+                          <p class="mb-20">During the project, our UX Lead was laid off. Having spent the most time working alongside him on this redesign, I continue to work with the UX team to ensure we have a consistent look and functionality across our 4 current solution offerings. In addition, I manage the design library to continue to meet the teams' growing needs and update them on changes. As this covers milestone one (of three) for the platform refresh, I am excited to continue working on expanding this new look to more of the platform to help improve our users' experience.</p>
+                        </div>
+
+                        </div>
+                      </div>
+                    </section>
+
+                    </div>
+                  </section>
 
                 <!-- Related Works -->
                 <section class="bg-black">
@@ -355,7 +456,7 @@
 
                       <div id="works-slider" class="flickity-slider-wrap items-4 mfp-hover" data-autoplay="true" data-arrows="true" data-slidedots="false">
 
-                        <div class="gallery-cell work-item hover-trigger hover-2">
+                      <!--  <div class="gallery-cell work-item hover-trigger hover-2">
                           <div class="work-container">
                             <div class="work-img">
                               <a href="portfolio-FB-redesign.html">
@@ -369,7 +470,7 @@
                               </a>
                             </div>
                           </div>
-                        </div> <!-- end work-item -->
+                        </div> end work-item -->
 
                         <div class="gallery-cell work-item hover-trigger hover-2">
                           <div class="work-container">
@@ -387,7 +488,7 @@
                           </div>
                         </div> <!-- end work-item -->
 
-                      <!--  <div class="gallery-cell work-item hover-trigger hover-2">
+                        <div class="gallery-cell work-item hover-trigger hover-2">
                           <div class="work-container">
                             <div class="work-img">
                               <a href="portfolio-Navigation.html">
@@ -401,7 +502,7 @@
                               </a>
                             </div>
                           </div>
-                        </div> end work-item -->
+                        </div> <!-- end work-item -->
 
                         <div class="gallery-cell work-item hover-trigger hover-2">
                           <div class="work-container">
@@ -464,13 +565,13 @@
                     <nav>
                       <ul class="row">
                         <li class="page-prev col-xs-4">
-                          <a href="portfolio-navigation.html"><i class="icon-Left-2"></i>PREVIOUS</a>
+                          <!--<a href="portfolio-kampe.html"><i class="icon-Left-2"></i>PREVIOUS</a>-->
                         </li>
                         <li class="back-to-projects col-xs-4">
                           <a href="index.html#projects">ALL PROJECTS</a>
                         </li>
                         <li class="page-next col-xs-4">
-                          <a href="portfolio-kampe.html">NEXT<i class="icon-Right-2"></i></a>
+                          <a href="portfolio-CounterFighter.html">NEXT<i class="icon-Right-2"></i></a>
                         </li>
                       </ul>
                     </nav>

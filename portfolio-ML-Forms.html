@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Portal Navigation Redesign // Marisa Bivi</title>
+  <title>Multi-Language Forms // Marisa Bivi</title>
 
   <meta charset="utf-8">
   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
@@ -105,13 +105,13 @@
         <div class="container">
           <div class="row">
 
-            <div class="col-md-7">
+            <div class="col-md-8">
               <div class="flickity-slider-wrap" id="slider-single" data-autoplay="false" data-arrows="false" data-slidedots="false">
 
                 <div class="gallery-cell work-item">
                   <div class="work-container">
                     <div class="work-img">
-                      <img src="img/UX/2020B-2.jpg" alt="">
+                      <img src="img/UX/2021A-2.jpg" alt="">
                     </div>
                   </div>
                 </div> <!-- end work-item -->
@@ -134,17 +134,17 @@
               </div>
             </div> <!-- end slider -->
 
-            <div class="col-md-5 project-description">
+            <div class="col-md-4 project-description">
               <div>
-                <h2><small>Portal Navigation Redesign</small></h2>
-                <p>Discussions about adding the portal redesign to the company roadmap had been ongoing long before I joined the R&D department in 2019. During a slow period for the UX team, our lead asked me to start with a new portal navigation design.</p>
+                <h2><small>Multi-Language Forms</small></h2>
+                <p>Many clients operate globally and need their forms in multiple languages. With the current platform, each language needs its own form. Some users would like a single instance to contain multiple languages.</p>
               </div>
               <div class="project-info mt-30">
                 <hr>
                 <div class="product_meta">
                   <div class="detail-wrap">
                     <span class="detail-label">Date:</span>
-                    <span class="detail-value">2020</span>
+                    <span class="detail-value">2021</span>
                   </div>
                   <div class="detail-wrap">
                     <span class="detail-label">Category:</span>
@@ -154,13 +154,13 @@
                     <span class="detail-label">Client:</span>
                     <span class="detail-value">ProntoForms</span>
                   </div>
-                <!--  <div class="detail-wrap">
+                  <div class="detail-wrap">
                     <span class="detail-label">Prototypes:</span>
                     <span class="detail-value"><a href="mailto:hello@marisabivi.ca">Contact Marisa</a></span>
-                  </div> -->
+                  </div>
                 </div>
                 <hr/>
-                <!-- <div class="socials-share mt-30 clearfix">
+              <!--  <div class="socials-share mt-30 clearfix">
                   <span>Share:</span>
                   <div class="social-icons nobase dark">
                     <a href="mailto:?Subject=Marisa Bivi // UX Designer&amp;Body=http://marisabivi.ca/" class="social-google-plus">
@@ -179,7 +179,7 @@
                       <i class="fa fa-pinterest-p"></i>
                     </a>
                   </div>
-                </div>-->
+                </div> -->
               </div>
             </div> <!-- project description -->
 
@@ -188,40 +188,27 @@
       </section> <!-- end portfolio single -->
 
           <!-- Research -->
-            <section class="section-wrap-sm bg-dark pb-0 pb-mdm-40">
+            <section class="section-wrap-sm bg-dark pb-100 pb-mdm-40">
               <div class="container">
                 <div class="row">
 
-                  <div class="col-md-6">
+                  <div class="col-sm-6">
                     <div class="about-description mb-40">
-                      <h2>Starting with Secondary Research</h2>
-                      <p class="mb-20">I decided to start with secondary research. First taking a look at competitors for trends and then best UX practices for building a navigation. Looking at competitors, I wanted to see if there was a standard location users might expect to find the navigation. I found a mix of top and side navigations meaning there was no clear path to execute based on <a href="https://lawsofux.com/jakobs-law/" target="_blank" rel="noreferrer noopener">Jakob’s Law</a> - but it was even more clear just how out-of-date our navigation is. I took screen shots to compile in a presentation as I felt the team might’ve been slightly desensitized to the current look since they are likely not visiting competitor platforms frequently.</p>
+                      <h2>Solution Overview</h2>
+                      <p class="mb-20">The first thing I was told was that this feature would not be a tool for managing translation statuses as it doesn’t currently align with our business model. The expectation is that translators will use external translation tools and then provide the finished files to our Citizen Developer creating the form. The corresponding translation string will be mapped through the unique ID that each question, sections and pages have. I did have concerns about the unique ID getting lost in a process external to ours, and was waiting on confirmation from SMEs.</p>
+                      <p class="mb-20"> Diving into this a little deeper there were 3 high-level things I need to think about in my designs; how to handle static assets, alerts about translation problems and questions that show or hide depending on the language.</p>
                     </div>
                   </div> <!-- end col -->
 
-                  <div class="col-md-6">
+                  <div class="col-md-5 col-md-offset-1">
                     <div class="promo-img">
-                      <p class="mb-0">While researching best practices, I found 3 key insights that shaped the direction I would take the navigation redesign in. First, that top navigations work best for menus that have 3-5 options. Navigations that have more options than that do well as a side menu. The second insight was Visual Fixation. Based on Visual Fixation, users would be able to skim the side navigation menu items more quickly than in a top navigation. The final information piece was a <a href="https://medium.com/ashleycrutcher/hover-vs-click-navigation-a260a8d51d81 target="_blank" rel="noreferrer noopener"">poll</a> that should roughly 67% of users disliking hover-drop-downs, which is what the current navigation uses.</p>
+                      <img src="img/UX/2021A-3.png" alt="" class="img-fw">
                     </div>
                   </div> <!-- end col -->
-              </div> <!-- end row -->
+              </div>
+            </section> <!-- end research -->
 
-              <div class="col-md-6">
-                <div class="promo-img">
-                  <img src="img/UX/2020B-3.jpg" alt="" class="img-fw">
-                </div>
-              </div> <!-- end col -->
-
-              <div class="col-md-6">
-                <div class="promo-img">
-                  <img src="img/UX/2020B-4.jpg" alt="" class="img-fw">
-                </div>
-              </div> <!-- end col -->
-
-            </div>
-          </section> <!-- end research -->
-
-            <!-- Mockups -->
+            <!-- Static Assets -->
             <section class="section-wrap-sm bg-dark" id="screenshots">
               <div class="container">
 
@@ -230,76 +217,101 @@
                     <div class="row">
 
                       <div class="col-sm-4 mb-40">
-                        <h2>Working in Sketch</h2>
+                        <h2>Handling Static Assets</h2>
                       </div>
 
                       <div class="col-sm-8">
-                        <p class="mb-20">With this information in hand, I moved on to building designs for the new side navigation. Laying out all the menu links in a single view felt crowded and overwhelming. Based on some earlier interviews with users for research to a separate matter, I noticed a use pattern of the platform forming: Users would set up their account (users, production spaces etc.) but after that would be more focused on building and managing their forms. Only occasionally making changes to the setup areas or users. I wanted to design a menu that grouped these areas to allow users to better focus on the information relevant to their tasks.</p>
-                        <p class="mb-20">I showed my samples of my navigation work to different team members to get input. The lead developer was particulalry excited to see the designs coming together. The most notible feedback in these early showings was that it was difficult to understand the icons so I included small text under each icon.</p>
-                      </div>
+                        <p class="mb-20">First, some questions rely on assets (images and pdfs) where text can’t be swapped. I’ve come up with 3 solutions for this problem that I need to present to all dev teams to better understand viability. Options 1 and 2 will likely run into problems with the platform’s limits for the number of images. These solutions are listed from most to least effort for dev teams.</p>
+                        <ol class="mb-40">
+                          <li>Uploads different versions under the main file. In the form, the user picks the main file and the product handles the mapping for language type. This solution behaves the most like the handling for translations.</li>
+                          <li>Let the users pick the file for each language (or include the filename in the translation file). These files would likely be individual uploads.</li>
+                          <li>Only one file is provided for relevant question types. Users could upload files with the different languages included there. This solution involves more work for the mobile user to find the correct language.</li>
+                       </ol>
+                     </div>
 
-                      </div>
-                    </div>
+                   </div>
+                 </div>
+               </section>
 
-                  </div>
+               <div class="container">
+                 <div class="work-img">
 
+                   <div class="col-sm-6 mb-40">
+                     <img src="img/UX/2021A-7.jpg" alt="">
+                   </div>
+
+                   <div class="col-sm-6 mb-40">
+                     <img src="img/UX/2021A-8.jpg" alt="">
+                   </div>
+
+                 </div>
+               </div>
+
+             </div>
+            </section> <!-- end static assets -->
+
+                <!-- Errors  -->
+                <section class="section-wrap-sm bg-dark" id="screenshots">
                   <div class="container">
-                    <div class="work-img">
 
-                      <div class="col-sm-4 mb-40">
-                        <img src="img/UX/2020B-3A.jpg" alt="">
-                      </div>
+                    <section id="skills">
+                      <div class="container">
+                        <div class="row">
 
-                      <div class="col-sm-4 mb-40">
-                        <img src="img/UX/2020B-3B.jpg" alt="">
-                      </div>
+                          <div class="col-sm-4 mb-40">
+                            <h2>Errors for Translations</h2>
+                          </div>
 
-                      <div class="col-sm-4 mb-40">
-                        <img src="img/UX/2020B-3c.jpg" alt="">
-                      </div>
+                          <div class="col-sm-8">
+                            <p class="mb-20">As we aren't looking to have our product be a translation tool, the PO said we would not track translations. Thinking on this more I feel we should be alerting our Citizen Developers about missing translations to prevent a poor experience for end users. Maybe even out-of-date as well.</p>
+                            <p class="mb-20">The problem is that translations will likely be handled externally and our clients will be blocked to solve the error and deploy their forms. We could allow the Citizen Developer to dismiss warnings related to translations – but the platform doesn’t support dismissals. We would need to spend more time planning behaviours around dismissal messages (per user, for how long etc.) before implementing such a solution.</p>
+                            <p class="mb-20">I came up with two alternate solution to handle missing solutions. One is to allow users to set up fallback languages for the form to use for missing translations. The second would be to allow users to deploy the languages that are up to date: the form would be in asynchronous states of deployment. This whole area will likely not be explored further until the first version of the solution is launched and we get input from a wider amount of users.</p>
+                          </div>
 
-                    </div>
-                  </div>
-
-                </section> <!-- end mockups-->
-
-
-            <!-- user testing -->
-              <section class="section-wrap-sm bg-dark pb-100 pb-mdm-40">
-                <div class="container">
-                  <div class="row">
-
-                    <div class="col-sm-6">
-                      <div class="about-description mb-40">
-                          <h2>A/B Testing with Users</h2>
-                          <p class="mb-20">At the end, the team decided to conduct A/B testing with two menu types. One which was expanded and then the tab navigation which I built as prototypes using proto.io. We opted to test with 10 users because this would be a large change to the platform that would affect every user. Though this number became 13 – extra users sat in on some sessions and shared their opinions. In a notable session the user sounded initially displeased to hear about the redesign. However, at the end of the session when I asked if the users had any questions for us and they said, “when will I see this live in the platform?” After completing the test, the user seemed much more receptive to the upcoming changes.</p>
-                      </div>
-                    </div> <!-- end col -->
-
-                    <div class="col-sm-6">
-                        <div class="about-description mb-40">
-                          <h2>Key Insights from Testing</h2>
-                          <ul>
-                            <p>Preference for option A started strong but, in the end, more users preferred option B. </p>
-                            <p>One user brought their own drawings of the navigation. The drawing clearly dictated a side navigation and the user was really pleased to see our design.</p>
-                            <p>Users struggled to identitfy that 'FormSpace' was a button. We hope the hover to indicate it is interactive will be more obvious with code and overtime.</p>
-                            <p>Only one user mentioned having a preference for navigations with hover.</p>
-                          </ul>
                         </div>
-                    </div> <!-- end col -->
-                </div>
-              </div>
+                      </div>
 
-              <div class="col-md-10 col-md-offset-1">
-                <div class="promo-img">
-                  <img src="img/UX/2020B-5.jpg" alt="" class="img-fw">
-                </div>
-              </div> <!-- end col -->
+                      <div class="container">
+                        <div class="work-img">
 
+                          <div class="col-sm-6 mb-40">
+                            <img src="img/UX/2021A-4.png" alt="">
+                          </div>
 
+                          <div class="col-sm-6 mb-40">
+                            <img src="img/UX/2021A-5.png" alt="">
+                          </div>
 
+                        </div>
+                      </div>
 
-              </section> <!-- end user testing -->
+                  </div>
+                </section> <!-- end errors -->
+
+                <!-- Errors  -->
+                <section class="section-wrap-sm bg-dark" id="screenshots">
+                  <div class="container">
+
+                    <section id="skills">
+                      <div class="container">
+                        <div class="row">
+
+                          <div class="col-sm-4 mb-40">
+                            <h2>Show and Hide Questions</h2>
+                          </div>
+
+                          <div class="col-sm-8">
+                            <p class="mb-20">While showing preliminary work to the PO, I was told that some users want to show and hide questions depending on the language – this is tied to region requirements. After the meeting, I worked on 2 solutions for how a user could complete this. (Direct on the question or with conditional logic). </p>
+                            <p class="mb-20">The information the PO shared also meant that the UX leads plans for how to show the correct language for a form was no longer viable. The initial plan was default the form language to a phone’s chosen locale. However, this could mean that users fill in irrelevant questions or missing important question for their region.</p>
+                            <p class="mb-20">To move forward with a decision on both matters, I felt it would be best to speak with Users to learn more about their process.</p>
+                          </div>
+
+                        </div>
+                      </div>
+                    </section>
+
+                  </div>
+                </section> <!-- end errors -->
 
               <!-- Wrapping up -->
               <section class="section-wrap-sm work-experience" id="experience">
@@ -310,36 +322,12 @@
                     </div>
                     <div class="col-sm-8">
                       <div class="work-experience-item">
-                        <p class="mb-0">I compiled my research, the users' feedback and some stats comparing the number of clicks and time to navigate the old navigation and the new design into a report that the UX lead presented to stakeholders. The result was that the navigation design (the start of the portal redesign) would be added to the product roadmap for the following year. I got to see development start before leaving ProntoForms and hope that upon launch at a larger scale, the design continued to recieve positive feedback.</p>
+                        <p class="mb-0">I was really looking forward to seeing this solution come together but that sadly didn’t happen before I left the company. I hope my leg work on the solution thus far put the company in a good position to move forward. The devs were really eager to hear more and review the designs. I wish I got to complete user testing to collect insights about this solution. In particular, which of the options I planned would users have felt best met their needs?</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </section> <!-- end wrapping up -->
-
-              <!-- Reflection -->
-                <section class="section-wrap-sm bg-dark pb-100 pb-mdm-40">
-                  <div class="container">
-                    <div class="row">
-
-                      <div class="col-sm-6">
-                        <div class="about-description mb-40">
-                          <h2>Looking Back</h2>
-                          <p class="mb-20">These are a couple of things I would do differently with more time and different resources:</p>
-                          <ol>
-                            <li>If there was more time, I would have futher refined the final look for the full list navigation. While it is an improvement, I think it could be even better.</li>
-                            <li>With different tools and availbility from other team members, I would have liked for the users to choose one of the new designs and use it for a month (via actual code). Then review the information that would come back from such a test. Doing this would have tested the learnability of the new design. I'm also curious if a longer trial with more natural and daily use would have changed the users' preference? Perhaps, users would have noticed the tab navigation let them focus on their task as it matched their journey in the platform.</li>
-                          </ol>
-                        </div>
-                      </div> <!-- end col -->
-
-                      <div class="col-md-5 col-md-offset-1">
-                        <div class="promo-img">
-                          <img src="img/UX/2020B-6.jpg" alt="" class="img-fw">
-                        </div>
-                      </div> <!-- end col -->
-                  </div>
-                </section> <!-- end reflection -->
 
                 <!-- Related Works -->
                 <section class="bg-black">
@@ -371,7 +359,7 @@
                           </div>
                         </div> <!-- end work-item -->
 
-                        <div class="gallery-cell work-item hover-trigger hover-2">
+                      <!--  <div class="gallery-cell work-item hover-trigger hover-2">
                           <div class="work-container">
                             <div class="work-img">
                               <a href="portfolio-ML-Forms.html">
@@ -385,9 +373,9 @@
                               </a>
                             </div>
                           </div>
-                        </div> <!-- end work-item -->
+                        </div> end work-item -->
 
-                      <!--  <div class="gallery-cell work-item hover-trigger hover-2">
+                        <div class="gallery-cell work-item hover-trigger hover-2">
                           <div class="work-container">
                             <div class="work-img">
                               <a href="portfolio-Navigation.html">
@@ -401,7 +389,7 @@
                               </a>
                             </div>
                           </div>
-                        </div> end work-item -->
+                        </div> <!-- end work-item -->
 
                         <div class="gallery-cell work-item hover-trigger hover-2">
                           <div class="work-container">
@@ -458,24 +446,26 @@
                 </section> <!-- end related works -->
 
 
-                <!-- Project Nav -->
-                <section class="project-nav bg-black no-padding">
-                  <div class="container">
-                    <nav>
-                      <ul class="row">
-                        <li class="page-prev col-xs-4">
-                          <a href="portfolio-navigation.html"><i class="icon-Left-2"></i>PREVIOUS</a>
-                        </li>
-                        <li class="back-to-projects col-xs-4">
-                          <a href="index.html#projects">ALL PROJECTS</a>
-                        </li>
-                        <li class="page-next col-xs-4">
-                          <a href="portfolio-kampe.html">NEXT<i class="icon-Right-2"></i></a>
-                        </li>
-                      </ul>
-                    </nav>
-                  </div>
-                </section> <!-- project nav -->
+      <!-- Project Nav -->
+      <section class="project-nav bg-black">
+        <div class="container">
+
+          <nav>
+            <ul class="row">
+              <li class="page-prev col-xs-4">
+                <a href="portfolio-FB-redesign.html"><i class="icon-Left-2"></i>PREVIOUS</a>
+              </li>
+              <li class="back-to-projects col-xs-4">
+                <a href="index.html#projects">ALL PROJECTS</a>
+              </li>
+             <li class="page-next col-xs-4">
+               <a href="portfolio-navigation.html">NEXT<i class="icon-Right-2"></i></a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+      </section> <!-- project nav -->
 
 
       <!-- Footer Type-1 -->
