@@ -6727,7 +6727,7 @@ input[type=email].transparent:focus {
 }
 .social-icons:not(.colored) a:hover {
   background-color: #333;
-  color: #f7be58 !important;
+  color: #333 !important;
 }
 .social-icons.large a {
   width: 50px;
@@ -6764,7 +6764,7 @@ input[type=email].transparent:focus {
 }
 .social-icons.nobase a:hover {
   background-color: transparent !important;
-  color: #f7be58;
+  color: #7c7d7d;
 }
 .social-icons.nobase.dark a {
   color: #7c7d7d;
