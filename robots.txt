@@ -4,3 +4,4 @@ User-agent: *
 Dissallow: /portfolio-smartbrokr.html
 Dissallow: /portfolio-template.html
 Dissallow: /portfolio-single.html
+Dissallow: /index-2024.html
