@@ -42,7 +42,6 @@
 
 
 
-
 .flickity-slider-wrap.with-spacing {
   margin: 0 -8px;
 
@@ -126,7 +125,7 @@
 
   &.hover-1 {
     .work-description {
-      background-color: #fff;
+      background-color: #3B3B3B;
       text-align: center;
       color: $heading-color;
       top: auto;
@@ -323,7 +322,7 @@
   }
 
   i {
-    font-size: 40px;
+    font-size: 15px;
   }
 }
 
@@ -420,8 +419,8 @@
   }
 
   .bottom-line:after {
-    border-color: #c8c8c8;
-    margin: 16px auto 0;
+    border-color: #6c6c6c;
+    margin: 22px auto 22px 0;
   }
 
   p {
@@ -473,7 +472,7 @@
 
 .works-grid.description .work-description {
   padding: 40px;
-  background-color: #fff;
+  background-color: #3B3B3B;
 }
 
 .grid-1-col {
@@ -498,7 +497,7 @@
     bottom: auto;
     position: relative;
     float: right;
-    background-color: #fff;
+    background-color: #3B3B3B;
     padding: 75px 70px 270px;
 
     h3 {
@@ -508,8 +507,8 @@
 
     span {
       font-family: $alt-font;
-      font-style: italic;
-      color: $light-grey;
+      text-transform: uppercase;
+      color: $yellow;
     }
   }
 }
@@ -681,4 +680,16 @@
     padding-left: 15px;
   }
 
+}
+
+/*-------------------------------------------------------*/
+/* Figma Link
+/*-------------------------------------------------------*/
+
+.falselink {
+  color: $yellow;
+  
+  &:hover {
+    color: $main-color;
+  }
 }

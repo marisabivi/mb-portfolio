@@ -309,7 +309,7 @@ p {
   content: "";
   display: block;
   width: 50px;
-  border-bottom: 3px solid $main-color;
+  border-bottom: 1px solid $dark-grey;
   margin: 22px auto 0;
   z-index: 1;
   position: relative;
@@ -320,7 +320,7 @@ p {
 }
 
 .bottom-line.grey:after {
-  border-color: #e4e4e4;
+  border-color: $dark-grey;
 }
 
 .bottom-line.full-grey:after {
