@@ -7818,7 +7818,7 @@ html {
     padding-top: 15%;
   }
 }
-@media (min-width: 767px) {
+@media (max-width: 767px) {
   .container-fluid.semi-fluid {
     padding: 0 15px;
   }
@@ -7862,7 +7862,7 @@ html {
   .flickity-slider-wrap.items-4 .work-item {
     width: 33.333%;
   }
-/*  .work-item .bg-img-holder,
+  .work-item .bg-img-holder,
 .work-item .bg-img-holder .bg-img {
     position: relative;
   }
@@ -7875,7 +7875,7 @@ html {
 .grid-1-col .work-description,
 .works-grid.grid-tiles .work-item {
     width: 100%;
-  } */
+  }
 
   .grid-1-col .work-description {
     padding: 60px 50px 80px 50px;
