@@ -902,9 +902,16 @@ input.main-search-input:-ms-input-placeholder {
 /* 501-991px: force desktop layout (no hamburger */
 @media (min-width: 501px) {
 /* dropdowns behave like desktop */
-  header.nav-type-2 .navbar-nav .open .dropdown-menu {
-    position: block;
+
+  .navbar-collapse.collapse {
+    display:block;
+    height: auto;
+    overflow: visible;
+  }
+
+  .navbar-nav {
     float: left;
+    display: inline-block;
     width: auto;
   }
 }
