@@ -18,12 +18,12 @@ html {
 /*-------------------------------------------------------*/
 /* Footer Type-1
 /*-------------------------------------------------------*/
-.footer {
+/* .footer {
   position: absolute;
   margin-top:100%;
   bottom: 0;
   width: 100%;
-}
+} */
 
 .footer.bg-dark {
 
@@ -408,6 +408,10 @@ html {
 /* Sticky Footer Override
 /*-------------------------------------------------------*/
 
+html, body {
+  height: 100%;
+}
+
 .main-wrapper {
   min-height: 100vh;
   display: flex;
@@ -421,7 +425,6 @@ html {
 .footer,
 .bottom-footer {
   position: static !important;
-  bottom: auto;
   margin-top: auto;
   width: 100%;
 }
