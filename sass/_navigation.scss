@@ -832,15 +832,18 @@ input.main-search-input:-ms-input-placeholder {
 -------------------------------------------------------*/
 
 .navbar-tog {
-  margin-top: 13px;
+  display: none;
+  margin: 13px 5px;
   z-index: 50;
-  margin-right: 5px;
   float: right;
   padding: 8px 10px;
-  background-color: transparent;
+  background: transparent;
   outline: none;
   -webkit-appearance: none;
+  box-shadow: none !important;
+  border: 0 !important;
   appearance: none;
+  display: none;
 
   & .icon-bar {
     background-color: $heading-color;
@@ -862,6 +865,48 @@ input.main-search-input:-ms-input-placeholder {
 
 .dark-bg .navbar-tog .icon-bar {
   background-color: $bg-dark;
+}
+
+/* 500px: show hamburger, stack items */
+@media (max-width: 500px) {
+  header.nav-type-2 .navbar-tog {
+    display: block;
+  }
+
+  header.nav-type-2 .navbar-nav {
+    text-align: left;
+  }
+
+  header.nav-type-2 .navbar-nav,
+  header.nav-type-2 .navbar-nav > li {
+    float: none !important;
+    display: block;
+    width: 100%;
+  }
+
+  header.nav-type-2 .navbar-nav > li > a {
+    display: block;
+    padding: 12px 15px;
+    line-height: 1.4px;
+  }
+
+  /* dropdowns rendered stacked */
+  header.nav-type-2 .navbar-nav .open .dropdown-menu {
+    display: block;
+    position: static;
+    float: none;
+    width: 100%;
+  }
+}
+
+/* 501-991px: force desktop layout (no hamburger */
+@media (min-width: 501px) {
+/* dropdowns behave like desktop */
+  header.nav-type-2 .navbar-nav .open .dropdown-menu {
+    position: block;
+    float: left;
+    width: auto;
+  }
 }
 
 
@@ -1429,7 +1474,6 @@ body.fs-open {
   }
 }
 
-
 /*-------------------------------------------------------*/
 /* Nav Type-7 (Tokyo)
 /*-------------------------------------------------------*/
@@ -1635,56 +1679,5 @@ header .flex-child.flex-right {
       -o-animation-delay: .10s;
       animation-delay: .10s;
     }
-  }
-}
-
-/* Hide Hamburger by Default */
-header.nav-type-2 .nav-tog {
-  display: none;
-}
-
-/* 500px: show hamburger, stack items */
-@media (max-width: 500px) {
-  header.nav-type-2 .nav-tog {
-    display: block !important;
-  }
-
-  header.nav-type-2 .navbar-nav {
-    text-align: left;
-  }
-
-  header.nav-type-2 .navbar-nav,
-  header.nav-type-2 .navbar-nav > li {
-    float: none !important;
-    display: block;
-    width: 100%;
-  }
-
-  header.nav-type-2 .navbar-nav > li > a {
-    display: block;
-    padding: 12px 15px;
-    line-height: 1.4px;
-  }
-
-  /* dropdowns rendered stacked */
-  header.nav-type-2 .navbar-nav .open .dropdown-menu {
-    display: block;
-    position: static;
-    float: none;
-    width: 100%;
-  }
-}
-
-/* 501-991px: force desktop layout (no hamburger */
-@media (min-width: 501px) {
-  header.nav-type-2 .nav-tog {
-    display: none !important;
-  }
-
-/* dropdowns behave like desktop */
-  header.nav-type-2 .navbar-nav .open .dropdown-menu {
-    position: absolute;
-    float: left;
-    width: auto;
   }
 }
