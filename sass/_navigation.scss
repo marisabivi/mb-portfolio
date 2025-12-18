@@ -38,7 +38,6 @@
 .navbar {
   margin-bottom: 0;
   border: none;
-  min-height: 100px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   @include transition ($all);
@@ -869,6 +868,29 @@ input.main-search-input:-ms-input-placeholder {
 
 /* 500px: show hamburger, stack items */
 @media (max-width: 500px) {
+  .nav-type-2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    z-index: 11000;
+    background: $bg-dark;
+  }
+
+  .content-wrapper {
+    padding-top: 100px;
+  }
+
+  .nav-wrap {
+    padding-bottom: 20px;
+  }
+
+  .nav-type-2 .navbar-collapse {
+    right:0;
+    overflow-y: auto;
+    display: none;
+  }
+
   header.nav-type-2 .navbar-tog {
     display: block;
   }
