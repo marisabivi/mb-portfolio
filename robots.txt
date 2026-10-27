@@ -1,7 +1,25 @@
 Sitemap: http://marisabivi.github.io/mb-portfolio/
 
 User-agent: *
-Dissallow: /portfolio-smartbrokr.html
-Dissallow: /portfolio-template.html
-Dissallow: /portfolio-single.html
-Dissallow: /index-2024.html
+Disallow: /portfolio-smartbrokr.html
+Disallow: /portfolio-template.html
+Disallow: /portfolio-single.html
+Disallow: /index-2024.html
+
+user-agent: GPTBot
+Disallow: /
+
+user-agent: ClaudeBot
+Disallow: /
+
+user-agent: Google-Extended
+Disallow: /
+
+user-agent: Applebot-Extended
+Disallow: /
+
+user-agent: CCBot
+Disallow: /
+
+user-agent: Bytespider
+Disallow: /
